@@ -1,0 +1,22 @@
+3
+
+ifIdentifier = q_1
+Identifier = num1
+
+Identifier = num_1
+
+Number = 45
+
+
+Identifier = while
+
+Identifier = num
+
+Identifier = num_1
+
+Identifier = num
+
+Number = 2
+
+
+Identifier = if

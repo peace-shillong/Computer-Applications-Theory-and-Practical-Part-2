@@ -1,0 +1,11 @@
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\bin\Debug\UsingSecondWebService.exe.config
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\bin\Debug\UsingSecondWebService.exe
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\bin\Debug\UsingSecondWebService.pdb
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\bin\Debug\UsingSecondWebService.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\obj\Debug\UsingSecondWebService.Form1.resources
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\obj\Debug\UsingSecondWebService.Resources.resources
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\obj\Debug\UsingSecondWebService.vbproj.GenerateResource.Cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\obj\Debug\UsingSecondWebService.exe
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\obj\Debug\UsingSecondWebService.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\UsingSecondWebService\UsingSecondWebService\obj\Debug\UsingSecondWebService.pdb

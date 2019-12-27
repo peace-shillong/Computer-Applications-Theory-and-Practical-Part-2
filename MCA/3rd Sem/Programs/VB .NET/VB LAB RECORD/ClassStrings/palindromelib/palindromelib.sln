@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "palindromelib", "palindromelib\palindromelib.vbproj", "{B8B571B4-9738-41BB-B139-A7C34129BF9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B571B4-9738-41BB-B139-A7C34129BF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B571B4-9738-41BB-B139-A7C34129BF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B571B4-9738-41BB-B139-A7C34129BF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B571B4-9738-41BB-B139-A7C34129BF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

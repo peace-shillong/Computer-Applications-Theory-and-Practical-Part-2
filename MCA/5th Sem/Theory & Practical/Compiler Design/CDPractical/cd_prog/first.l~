@@ -1,0 +1,15 @@
+%{
+	char name[20];
+	// My first Lex Program
+}%
+%%
+/n	 {printf("Good morning %s",name);}
+%%
+void main()
+{
+	printf("Enter your name :");
+	scanf("%s",name);
+	yylex();
+}
+
+

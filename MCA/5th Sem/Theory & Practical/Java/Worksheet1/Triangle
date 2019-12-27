@@ -1,0 +1,22 @@
+class Point
+{
+	double x;
+	double y;
+	Point()
+	{
+		x=y=1;
+	}
+	Point(int a,int b)
+	{
+		x=a;
+		y=b;
+	}
+	Point(int l)
+	{
+		x=y=l;
+	}
+	double distance(Point p)
+	{
+		return 
+	}
+}

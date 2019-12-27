@@ -1,0 +1,16 @@
+%{
+	#include<stdio.h>	
+
+%}
+vowel [aeiou] 
+%%
+^{vowel}+.* {printf("\nPattern starts with vowel ");}
+.* {printf("\n Patter does not starts with vowel ");}
+%%
+main()
+{
+	
+	yylex();
+	
+}
+

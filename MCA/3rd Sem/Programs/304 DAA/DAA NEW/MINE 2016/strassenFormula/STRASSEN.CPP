@@ -1,0 +1,99 @@
+#include <stdio.h>
+#include <math.h>
+//#include<windows.h>
+#define SIZE 8
+long start,end;
+int A[SIZE][SIZE];
+int B[SIZE][SIZE];
+int C[SIZE][SIZE];
+
+void mul(int i,int j,int k, int l);
+void multiplication(int n);
+int dim(int D[][SIZE],int n);
+void input(int D[][SIZE],int n);
+void display(int D[][SIZE],int n);
+
+void main()
+{
+	int n1;
+	int i,j;
+	srand(GetTickCount());
+	printf("\n\nEnter the size of the matrix: ");
+	scanf("%d",&n1);
+	printf("\nEnter the elements of the first matrix ");
+	input(A,n1);
+	printf("\nEnter the elements of the second matrix ");
+	input(B,n1);
+	printf("\nThe first matrix: \n");
+	display(A,n1);
+	printf("\nThe Second matrix: \n");
+	display(B,n1);
+	start=GetTickCount();
+	multiplication(n1);
+	end=GetTickCount();
+	printf("\nProduct Matrix");
+	printf("\n\t");
+	display(C,n1);
+	printf("\nTime taken is %ld miliseconds\n",end-start);
+}
+
+void mul(int i,int j,int k,int l)
+{
+	int m1,m2,m3,m4,m5,m6,m7;
+
+	 m1=(A[i][j+1]- A[i+1][j+1]) * (B[k+1][l]+B[k+1][l+1]);
+	 m2=(A[i][j]+A[i+1][j+1]) * (B[k][l]+B[k+1][l+1]);
+	 m3=(A[i][j]-A[i+1][j])*(B[k][l]+B[k][l+1]);
+	 m4=(A[i][j]+A[i][j+1])* B[k+1][l+1];
+	 m5=A[i][j] * (B[k][l+1]-B[k+1][l+1]);
+	 m6=A[i+1][j+1]*(B[k+1][l]-B[k][l]);
+	 m7=(A[i+1][j]+A[i+1][j+1]) *B[k][l];
+
+	 C[i][l]=m1+m2-m4+m6+C[i][l];
+	 C[i][l+1]=m4+m5+C[i][l+1];
+	 C[i+1][l]=m6+ m7+ C[i+1][l];
+	 C[i+1][l+1]=m2-m3+m5-m7+C[i+1][l+1];
+}
+
+void multiplication(int n)
+{
+	int i,j,k,l,no,k1;
+	int t;
+	i=j=k=l=1;
+	for(no=2;no<=n;no=no+2)
+	{
+		j=no-1;
+		k=no-1;
+		for(l=1;l<n;l=l+2)
+			mul(i,j,k,l);
+		for(t=3;t<n;t+=2)
+			for(l=1;l<n;l=l+2)
+				mul(t,j,k,l);
+
+	}
+}
+
+
+void input(int D[][SIZE],int n)
+{
+	int i,j;
+	for(i=1;i<=n;i++)
+	{
+		for(j=1;j<=n;j++)
+		{
+			printf("\nEnter the element for[%d][%d] : ",i,j);
+			scanf("%d",&D[i][j]);
+		}
+	}
+}
+
+void display(int D[][SIZE],int n)
+{
+	int i,j;
+	for(i=1;i<=n;i++)
+	{
+		printf("\n");
+		for(j=1;j<=n;j++)
+			printf("\t%d",D[i][j]);
+	}
+}

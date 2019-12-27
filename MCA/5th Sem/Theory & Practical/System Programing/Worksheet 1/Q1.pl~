@@ -1,0 +1,11 @@
+#!/bin/perl
+
+#Enter Value
+print "Enter your Name: ";
+
+$a=<STDIN>;
+
+chomp($a);
+
+print "You Entered $a \n";
+

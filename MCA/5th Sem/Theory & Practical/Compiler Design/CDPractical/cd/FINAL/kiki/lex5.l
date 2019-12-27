@@ -1,0 +1,44 @@
+%{
+	//Program to store identifiers as well as arithmetic operators to a file called symbol table
+	#include<stdio.h>
+	FILE *fp;
+%}
+%%
+[a-zA-Z]+  {
+         
+                        
+        fp=fopen("sym.txt","a");
+        fprintf(fp,"\n %s",yytext);
+        
+	   }
+
+[+]{2}[\n]  {
+         
+                        
+        fp=fopen("sym.txt","a");
+        fprintf(fp,"\n %s",yytext);
+        
+	 }
+ 
+[-]{2}[\n]  {
+         
+                        
+        fp=fopen("sym.txt","a");
+        fprintf(fp,"\n %s",yytext);
+        
+	    }
+ 
+[\+\-\*/%][\n] {
+	 
+			
+	fp=fopen("sym.txt","a");
+	fprintf(fp,"\n %s",yytext);
+ 	
+ 	     }
+      
+%%
+main()
+{
+	yylex();
+	fclose(fp);
+}

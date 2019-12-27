@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\bin\Debug\04MatrixDiagoanals.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\bin\Debug\04MatrixDiagoanals.pdb
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\bin\Debug\04MatrixDiagoanals.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\obj\Debug\_04MatrixDiagoanals.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\obj\Debug\04MatrixDiagoanals.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\obj\Debug\04MatrixDiagoanals.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\obj\Debug\04MatrixDiagoanals.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\04MatrixDiagoanals\04MatrixDiagoanals\obj\Debug\04MatrixDiagoanals.pdb

@@ -1,0 +1,9 @@
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\bin\Release\LongShortlib.dll
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\bin\Release\LongShortlib.pdb
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\bin\Release\LongShortlib.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\obj\Release\LongShortlib.Resources.resources
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\obj\Release\LongShortlib.vbproj.GenerateResource.Cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\obj\Release\LongShortlib.dll
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\obj\Release\LongShortlib.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\LongShortlib\LongShortlib\obj\Release\LongShortlib.pdb

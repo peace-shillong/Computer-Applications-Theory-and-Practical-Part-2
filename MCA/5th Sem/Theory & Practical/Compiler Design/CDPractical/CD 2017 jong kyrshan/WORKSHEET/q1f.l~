@@ -1,0 +1,12 @@
+%{
+#include<stdio.h>
+%}
+%option noyywrap
+%%
+^[a-z]+ {printf(" %s is an identifier",yytext);}
+%%
+
+void main()
+{
+	yylex();
+}

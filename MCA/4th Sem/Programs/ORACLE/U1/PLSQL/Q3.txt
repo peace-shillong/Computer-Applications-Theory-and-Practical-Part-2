@@ -1,0 +1,6 @@
+FULL NAME Kyrmen Lanong
+HIREDATE 12-FEB-01
+Department ACCOUNTS
+
+PL/SQL procedure successfully completed.
+

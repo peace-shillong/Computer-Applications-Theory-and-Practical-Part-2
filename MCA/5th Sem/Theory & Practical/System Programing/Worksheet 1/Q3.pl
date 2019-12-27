@@ -1,0 +1,15 @@
+#!/bin/usr/perl
+
+#Enter Value
+print "Enter The Radius of the Circle: ";
+
+$r=<STDIN>;
+
+chop($no);
+$dia=2*$r;
+$cir=2*3.14*$r;
+print "Diameter is $dia \n";
+print "Circumference is $cir \n";
+
+
+

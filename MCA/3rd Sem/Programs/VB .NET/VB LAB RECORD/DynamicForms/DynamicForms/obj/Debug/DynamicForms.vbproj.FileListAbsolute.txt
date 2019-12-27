@@ -1,0 +1,11 @@
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\bin\Debug\DynamicForms.exe
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\bin\Debug\DynamicForms.pdb
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\bin\Debug\DynamicForms.xml
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\DynamicForms.Form1.resources
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\DynamicForms.FrmOutput.resources
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\DynamicForms.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\DynamicForms.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\DynamicForms.exe
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\DynamicForms.xml
+Z:\MCA_3rd_Sem\GUI\U1\DynamicForms\DynamicForms\obj\Debug\DynamicForms.pdb

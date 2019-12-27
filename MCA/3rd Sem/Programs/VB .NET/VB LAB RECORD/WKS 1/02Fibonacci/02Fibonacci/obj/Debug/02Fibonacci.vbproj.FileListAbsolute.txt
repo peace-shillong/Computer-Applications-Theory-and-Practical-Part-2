@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\obj\Debug\_02Fibonacci.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\obj\Debug\02Fibonacci.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\bin\Debug\02Fibonacci.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\bin\Debug\02Fibonacci.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\bin\Debug\02Fibonacci.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\obj\Debug\02Fibonacci.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\obj\Debug\02Fibonacci.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\02Fibonacci\02Fibonacci\obj\Debug\02Fibonacci.pdb

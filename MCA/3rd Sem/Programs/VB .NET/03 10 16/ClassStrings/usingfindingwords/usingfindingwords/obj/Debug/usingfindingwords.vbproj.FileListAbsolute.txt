@@ -1,0 +1,39 @@
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.exe
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.pdb
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.xml
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\bin\Debug\findingwords.dll
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\bin\Debug\findingwords.pdb
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\bin\Debug\findingwords.xml
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.Form1.resources
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.Resources.resources
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.vbproj.GenerateResource.Cache
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.exe
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.xml
+Z:\MCA 3sem\vb.net\classes\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\bin\Debug\findingwords.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\bin\Debug\findingwords.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\bin\Debug\findingwords.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.Form1.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.exe
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.xml
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.pdb
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.exe
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.pdb
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\bin\Debug\usingfindingwords.xml
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\bin\Debug\findingwords.dll
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\bin\Debug\findingwords.pdb
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\bin\Debug\findingwords.xml
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.Form1.resources
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.Resources.resources
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingfindingwords\usingfindingwords\obj\Debug\usingfindingwords.vbproj.GenerateResource.Cache

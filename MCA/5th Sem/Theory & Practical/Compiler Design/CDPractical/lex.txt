@@ -1,0 +1,116 @@
+ LEX programs
+1.program to identify keywords,numbers,identifiers
+
+%{
+//This is first lex program
+%}
+letter [a-z][A-Z0-9a-z0-9]*
+digit [0-9]+
+%%
+int|float|do|char|else|while|for|if {printf("%s is a keyword",yytext);}
+{letter} {printf("%s is an identifier",yytext);}
+{digit} {printf("%s is a number",yytext);}
+%%
+main(int argc,char **argv)
+{
+if(argc>1)
+yyin=fopen(argv[1],"r");
+else
+yyin=stdin;
+yylex();
+printf("\n");
+}
+int yywrap()
+{
+return 0;
+}
+
+2.Program to implement standalone scanner in LEX
+
+%{
+int COMMENT=0;
+%}
+id      [a-z][a-z0-9]*
+%%
+#.*                             {printf("\n%s is a PREPROCESSOR DIRECTIVE",yytext);}
+int|double|char    {printf("\n\t%s is a KEYWORD",yytext);}
+if|then|endif          {printf("\n\t%s is a KEYWORD",yytext);}
+else                            {printf("\n\t%s is a KEYWORD",yytext);}
+"/*"                            {COMMENT=1;}
+"*/"                            {COMMENT=0;}
+{id}\(                        {if(!COMMENT)printf("\n\nFUNCTION\n\t%s",yytext);}
+{id}(\[[0-9]*\])?  {if(!COMMENT) printf("\n\tidentifier\t%s",yytext);}
+\{                                {if(!COMMENT) printf("\n BLOCK BEGINS");ECHO; }
+\}                                {if(!COMMENT)printf("\n BLOCK ends");ECHO; }
+\".*\"                         {if(!COMMENT)printf("\n\t %s is a STRING",yytext);}
+[+\-]?[0-9]+          {if(!COMMENT)printf("\n\t%s is a NUMBER",yytext);}
+\(                                {if(!COMMENT)printf("\n\t");ECHO;printf("\t delim openparanthesis\n");}
+\)                                {if(!COMMENT)printf("\n\t");ECHO;printf("\t delim closed paranthesis");}
+\;                                {if(!COMMENT)printf("\n\t");ECHO;printf("\t delim semicolon");}
+\=                               {if(!COMMENT)printf("\n\t%s is an ASSIGNMENT OPERATOR",yytext);}
+\<|\>                        {printf("\n\t %s is relational operator",yytext);}
+"+"|"-"|"*"|"/"       {printf("\n %s is an operator\n",yytext);}
+"\n"    ;
+%%
+main(int argc ,char **argv)
+{
+        if (argc > 1)
+                yyin = fopen(argv[1],"r");
+        else
+                yyin = stdin;
+        yylex ();
+        printf ("\n");
+}
+int yywrap()
+{
+        return 0;
+}
+
+3.Program to find octal and hexadecimal numbers 
+
+%{ 
+/*program to identify octal and hexadecimal numbers*/
+%}
+Oct [o][0-9]+
+Hex [o][x|X][0-9A-F]+
+%%
+{Hex} printf("this is a hexadecimal number");
+{Oct} printf("this is an octal number");
+%%
+main()
+{
+yylex();
+}
+int yywrap()
+{
+return 1;
+}
+
+4.Program to capitalize the given comment
+
+%{
+#include<stdio.h>
+#include<ctype.h>
+int k;
+void display(char *);
+%}
+letter [a-z]
+com [//]
+%%
+{com} {k=1;}
+{letter} {if(k==1) display(yytext);}
+%%
+main()
+{
+ yylex();
+}
+ void display(char *s)
+{
+ int i;
+ for(i=0;s[i]!='\0';i++)
+ printf("%c", toupper(s[i]));
+}
+int yywrap()
+{
+return 1;
+}

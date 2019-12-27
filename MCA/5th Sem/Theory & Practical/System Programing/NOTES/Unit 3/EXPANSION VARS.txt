@@ -1,0 +1,54 @@
+	MACRO	
+	CONSTS	&M, &N, &Z
+	IRP	&Z, &N, 7, &M
+	DC	'&Z'
+	ENDM
+	MEND
+
+MACRO CALL : CONSTS 4,10
+
+
+	MACRO
+	CONST5
+	LCL	&X
+    &X	SET	1
+	REPT	5
+	DC 	'&X'
+    &X	SET  	&X+1
+	ENDM
+	MEND
+
+MACRO CALL : CONST5
+
+
+
+	MACRO
+	EVAL	&X, &Y, &Z
+	AIF 	(&Y EQ &X) .ONLY
+	MOVER	AREG, &X
+	SUB	AREG, &Y
+	ADD 	AREG, &Z
+	AGO	.OVER
+.ONLY	MOVER	AREG, &Z
+.OVER	MEND
+
+MACRO CALL : EVAL A,B,C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

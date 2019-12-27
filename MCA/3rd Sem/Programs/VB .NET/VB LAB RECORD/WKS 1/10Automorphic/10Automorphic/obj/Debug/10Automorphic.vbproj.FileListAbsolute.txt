@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\bin\Debug\10Automorphic.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\bin\Debug\10Automorphic.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\bin\Debug\10Automorphic.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\obj\Debug\_10Automorphic.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\obj\Debug\10Automorphic.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\obj\Debug\10Automorphic.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\obj\Debug\10Automorphic.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\10Automorphic\10Automorphic\obj\Debug\10Automorphic.pdb

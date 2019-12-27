@@ -1,0 +1,13 @@
+operator: %
+operator: /
+operator: -
+operator: +
+identifier: gfh_43
+identifier: fr
+identifier: fdhj
+identifier: fgf_4
+identifier: fg
+operator: --
+operator: ++
+identifier: gf
+

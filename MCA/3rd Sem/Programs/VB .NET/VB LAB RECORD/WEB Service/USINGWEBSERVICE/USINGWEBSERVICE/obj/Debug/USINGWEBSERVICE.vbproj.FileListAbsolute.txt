@@ -1,0 +1,16 @@
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\bin\Debug\USINGWEBSERVICE.exe.config
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\bin\Debug\USINGWEBSERVICE.exe
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\bin\Debug\USINGWEBSERVICE.pdb
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\bin\Debug\USINGWEBSERVICE.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.Form1.resources
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.Resources.resources
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.vbproj.GenerateResource.Cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.exe
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.pdb
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\bin\Debug\USINGWEBSERVICE.exe.manifest
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\bin\Debug\USINGWEBSERVICE.application
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.TrustInfo.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.exe.manifest
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\USINGWEBSERVICE\USINGWEBSERVICE\obj\Debug\USINGWEBSERVICE.application

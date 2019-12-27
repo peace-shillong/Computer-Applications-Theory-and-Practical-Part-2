@@ -1,0 +1,8 @@
+--calling the function gr_3nos
+set serveroutput on
+declare 
+  res number;
+begin 
+  res:=gr_3nos_fn(1,1,21)
+  DBMS_OUTPUT.PUT_LINE(res);
+end;

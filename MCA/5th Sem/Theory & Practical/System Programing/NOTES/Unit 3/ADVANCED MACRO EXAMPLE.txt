@@ -1,0 +1,98 @@
+USAGE OF SEQUENCING SYMBOL AND AIF STATEMENTS
+----------------------------------------------
+
+	MACRO
+	DCL_CONST	&A=12
+	AIF		(L'&A EQ 1).NEXT
+.NEXT	....
+	...
+	MEND
+
+DCL_CONST 
+
+
+USAGE OF SEQUENCING SYMBOL, AGO AND AIF STATEMENTS
+----------------------------------------------
+
+	MACRO
+	EVAL	&X,&Y,&Z
+	AIF	(&Y EQ &X) .ONLY
+	MOVER	AREG, &X
+	SUB	AREG, &Y
+.ONLY	ADD	AREG, &Z
+	AGO	.OVER
+	MOVER	AREG, &Z
+.OVER	ANOP
+	MEND
+
+Macro call:	EVAL A, B, 5
+
+
+
+
+EXPANSION TIME LOOPS
+--------------------
+
+	MACRO
+	CLEAR	&X, &N
+	LCL	&M
+&M	SET 	0
+	MOVER	AREG, ='0'
+.MORE	MOVEM	AREG, &X+&M
+&M	SET	&M+1
+	AIF	(&M NE &N) .MORE
+	MEND
+
+
+SIMILAR TO:
+
+	MACRO
+	CLEAR
+	MOVER	AREG, ='0'
+	MOVEM	AREG, &A
+	MOVEM	AREG, &A+1
+	MOVEM	AREG, &A+2
+	MEND
+
+
+MACRO CALL: CLEAR B,3 LEADS TO EXPANSION
+
+	+	MOVER	AREG, ='0'
+	+	MOVEM	AREG, B
+	+	MOVEM	AREG, B+1
+	+	MOVEM	AREG, B+2
+	
+
+
+REPT STATEMENT
+--------------
+
+	MACRO
+	CONST10
+	LCL	&M
+&M	SET	1
+	REPT	10
+	DC	'&M'
+&M	SET	&M+1
+	ENDM
+	MEND
+
+THIS DECLARE 10 CONSTANTS:	1,2..10
+
+
+
+IRP STATEMENT
+--------------
+
+	MACRO
+	CONSTS	&M,&N,&Z
+	IRP	&Z,&M,7,&N
+	DC	'&Z'
+	ENDM
+	MEND
+
+
+
+MACRO CALL: CONSTS 4, 10 GIVES THE VALUES 4,7,10
+
+

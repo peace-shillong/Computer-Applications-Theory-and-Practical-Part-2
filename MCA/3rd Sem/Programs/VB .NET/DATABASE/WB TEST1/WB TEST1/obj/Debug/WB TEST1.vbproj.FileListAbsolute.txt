@@ -1,0 +1,16 @@
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\bin\Debug\WB TEST1.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\bin\Debug\WB TEST1.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\bin\Debug\WB TEST1.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB_TEST1.AddNewEntry.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB_TEST1.Form1.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB_TEST1.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB_TEST1.ViewAllEntries.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB TEST1.vbproj.GenerateResource.Cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB TEST1.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB TEST1.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB TEST1.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\DAA\WB TEST1\WB TEST1\obj\Debug\WB_TEST1.PrintPreview.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\WB TEST1\WB TEST1\obj\Debug\WB TEST1.exe
+Z:\MCA_3rd_Sem\GUI\DATABASE\WB TEST1\WB TEST1\obj\Debug\WB TEST1.xml
+Z:\MCA_3rd_Sem\GUI\DATABASE\WB TEST1\WB TEST1\obj\Debug\WB TEST1.pdb

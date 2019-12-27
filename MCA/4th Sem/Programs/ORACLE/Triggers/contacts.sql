@@ -1,0 +1,1 @@
+create table contacts(contactid number(3) primary key,firstname varchar2(50) not null unique,lastname varchar2(50),phone varchar2(12) not null);

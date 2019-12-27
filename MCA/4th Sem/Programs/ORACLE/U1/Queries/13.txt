@@ -1,0 +1,23 @@
+
+SQL*Plus: Release 9.2.0.1.0 - Production on Tue Mar 14 02:29:24 2017
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+
+Connected.
+
+1 row updated.
+
+
+Commit complete.
+
+
+EMPLOYEEID LASTNAME                 SALARY new salary
+---------- -------------------- ---------- ----------
+        20 Syiem                     20000      23000
+        30 Lanong                    15000      17250
+        40 Sen                       20000      23000
+        10 Brown                     10000      11500
+
+4 rows selected.
+

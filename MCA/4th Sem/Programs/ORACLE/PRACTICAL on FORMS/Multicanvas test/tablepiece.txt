@@ -1,0 +1,4 @@
+create table PIECE(Piece_id number(3) primary key,piece_name varchar2(30) unique, piece_cost number(8,2) check(piece_cost>0));
+
+insert into piece values(1,'Waterfall Art',100);
+insert into piece values(2,'Mountain view Art',200);

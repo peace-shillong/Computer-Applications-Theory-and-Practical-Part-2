@@ -1,0 +1,29 @@
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\bin\Debug\usingpalindrome.exe
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\bin\Debug\usingpalindrome.pdb
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\bin\Debug\usingpalindrome.xml
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\bin\Debug\palindromelib.dll
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\bin\Debug\palindromelib.pdb
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\bin\Debug\palindromelib.xml
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.Form1.resources
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.Resources.resources
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.vbproj.GenerateResource.Cache
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.exe
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.xml
+Z:\MCA 3sem\vb.net\classes\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\bin\Debug\usingpalindrome.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\bin\Debug\usingpalindrome.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\bin\Debug\usingpalindrome.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\bin\Debug\palindromelib.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\bin\Debug\palindromelib.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\bin\Debug\palindromelib.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.Form1.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.exe
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.xml
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\usingpalindrome\usingpalindrome\obj\Debug\usingpalindrome.pdb

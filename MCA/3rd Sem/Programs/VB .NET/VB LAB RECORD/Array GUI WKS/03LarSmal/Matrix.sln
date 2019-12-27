@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Matrix", "03BinarySearch\Matrix.vbproj", "{C662D8BB-0C05-4D3D-A77B-B2DC676919AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C662D8BB-0C05-4D3D-A77B-B2DC676919AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C662D8BB-0C05-4D3D-A77B-B2DC676919AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C662D8BB-0C05-4D3D-A77B-B2DC676919AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C662D8BB-0C05-4D3D-A77B-B2DC676919AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

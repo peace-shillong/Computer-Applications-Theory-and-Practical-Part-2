@@ -1,0 +1,30 @@
+%{
+	//program to count number of lines from files
+	#include<stdio.h>
+	int cntwrd = 0;
+	int char_s = 0;
+	int char_ws = 0;
+	int cntline = 0;
+	
+%}
+%%
+[^ \t\n]+ {
+		printf("\n\t %s",yytext);
+		++cntwrd;
+	
+	}
+
+.+\n {
+	
+	printf("\n\t %s",yytext);
+	++cntline;
+	
+	}	
+%%
+main()
+{
+	yyin = fopen("test.txt","r");	
+	yylex();
+	printf("\n\t lines = %d\n",cntline);
+	fclose(yyin);
+}

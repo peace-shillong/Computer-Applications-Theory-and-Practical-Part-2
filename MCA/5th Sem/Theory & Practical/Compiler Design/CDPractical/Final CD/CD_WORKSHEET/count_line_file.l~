@@ -1,0 +1,19 @@
+%{
+	//program to count number of lines from files
+	#include<stdio.h>
+	int cntline = 0;
+%}
+%%
+.+\n {
+	
+	printf("\n\t %s",yytext);
+	++cntline;
+	}	
+%%
+main()
+{
+	yyin = fopen("test.txt","r");	
+	yylex();
+	printf("\n\tNumber of words = %d\n",cntline);
+	close(yyin);
+}

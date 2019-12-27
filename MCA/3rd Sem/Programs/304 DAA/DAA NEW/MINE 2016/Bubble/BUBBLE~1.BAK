@@ -1,0 +1,95 @@
+// time taken by the bubblesort
+
+#include <windows.h>   
+#include <stdio.h> 
+#include <conio.h>    
+#include <stdlib.h>   
+
+#define ITEMS 200000
+
+void Bubblesort(int arr[],int size);
+void AfterSort(int a[], int size);
+void BeforeSort(int a[], int size);
+
+int numbers[ITEMS];
+
+void main()
+{
+  int k;
+  long te, ts;
+  srand(GetTickCount()); 
+
+  for (k = 0; k < ITEMS; k++) 
+    numbers[k] = rand();
+BeforeSort(numbers,ITEMS);
+  printf("Number of elements     Time taken\n");
+   for(long i=10000;i<=ITEMS;i=2*i)
+  {
+	ts=te=0;
+  ts = GetTickCount();
+  
+   Bubblesort(numbers,i);
+ 
+  te =  GetTickCount();
+  
+
+  AfterSort(numbers,ITEMS);
+  printf("%ld\t\t\t%ld secs\n",i, (te - ts)/1000);
+  }
+  getch();
+}
+
+
+
+void Bubblesort(int arr[],int size)
+{
+
+    int i,j,temp;
+	
+    for(i=0;i<size-1;i++)
+	{
+		for(j=0;j<size-i-1;j++)
+		 {
+             if (arr[j] > arr[j+1])
+			 {
+	
+				temp=arr[j];
+				arr[j]=arr[j+1];
+				arr[j+1]=temp;
+	         }
+		}
+    }
+   
+}
+
+void AfterSort(int a[], int size)
+{
+	FILE *fp;
+	fp=fopen("AfterSort.txt","w");
+	if (fp==NULL)
+	{
+		printf("\nCannot Open File");
+		exit(1);
+	}
+	for(int i=0;i<size;i++)
+	{
+		fprintf(fp,"  %d",a[i]);
+	}
+	fclose(fp);
+}
+
+void BeforeSort(int a[], int size)
+{
+	FILE *fp;
+	fp=fopen("BeforeSort.txt","w");
+	if (fp==NULL)
+	{
+		printf("\nCannot Open File");
+		exit(1);
+	}
+	for(int i=0;i<size;i++)
+	{
+		fprintf(fp,"  %d",a[i]);
+	}
+	fclose(fp);
+}

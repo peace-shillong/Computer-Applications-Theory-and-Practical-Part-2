@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\bin\Debug\09GenPrime.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\bin\Debug\09GenPrime.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\bin\Debug\09GenPrime.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\obj\Debug\_09GenPrime.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\obj\Debug\09GenPrime.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\obj\Debug\09GenPrime.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\obj\Debug\09GenPrime.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\09GenPrime\09GenPrime\obj\Debug\09GenPrime.pdb

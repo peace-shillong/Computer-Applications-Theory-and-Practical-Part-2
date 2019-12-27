@@ -1,0 +1,13 @@
+%{
+#include<stdio.h>
+%}
+%option noyywrap
+vowel [aeiou]
+%%
+[^{vowel}]*[{vowel}][^{vowel}]*[{vowel}][^{vowel}]*[{vowel}][^{vowel}]*[{vowel}][^{vowel}]*[{vowel}][^{vowel}]* {printf("Accepted");}
+.* {printf("");}
+%%
+void main()
+{
+	yylex();	
+}

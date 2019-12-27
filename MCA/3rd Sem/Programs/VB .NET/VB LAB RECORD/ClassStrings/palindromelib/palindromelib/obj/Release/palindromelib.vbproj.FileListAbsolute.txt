@@ -1,0 +1,18 @@
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\bin\Release\palindromelib.dll
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\bin\Release\palindromelib.pdb
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\bin\Release\palindromelib.xml
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\obj\Release\ResolveAssemblyReference.cache
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\obj\Release\palindromelib.Resources.resources
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\obj\Release\palindromelib.vbproj.GenerateResource.Cache
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\obj\Release\palindromelib.dll
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\obj\Release\palindromelib.xml
+Z:\MCA 3sem\vb.net\classes\palindromelib\palindromelib\obj\Release\palindromelib.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\bin\Release\palindromelib.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\bin\Release\palindromelib.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\bin\Release\palindromelib.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\obj\Release\palindromelib.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\obj\Release\palindromelib.vbproj.GenerateResource.Cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\obj\Release\palindromelib.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\obj\Release\palindromelib.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\palindromelib\palindromelib\obj\Release\palindromelib.pdb

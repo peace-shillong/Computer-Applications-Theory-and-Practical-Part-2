@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\bin\Debug\01Factorial.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\bin\Debug\01Factorial.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\bin\Debug\01Factorial.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\obj\Debug\_01Factorial.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\obj\Debug\01Factorial.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\obj\Debug\01Factorial.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\obj\Debug\01Factorial.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\01Factorial\01Factorial\obj\Debug\01Factorial.pdb

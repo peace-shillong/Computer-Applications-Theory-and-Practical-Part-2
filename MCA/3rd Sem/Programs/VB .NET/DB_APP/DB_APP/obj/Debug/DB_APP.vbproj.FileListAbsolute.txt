@@ -1,0 +1,30 @@
+Z:\VB.NET Applications\DB_APP\DB_APP\bin\Debug\DB_APP.exe
+Z:\VB.NET Applications\DB_APP\DB_APP\bin\Debug\DB_APP.pdb
+Z:\VB.NET Applications\DB_APP\DB_APP\bin\Debug\DB_APP.xml
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\ResolveAssemblyReference.cache
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.Form1.resources
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.Resources.resources
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.vbproj.GenerateResource.Cache
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.exe
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.xml
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.pdb
+Z:\VB.NET Applications\DB_APP\DB_APP\bin\Debug\DB_APP.exe.manifest
+Z:\VB.NET Applications\DB_APP\DB_APP\bin\Debug\DB_APP.application
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.TrustInfo.xml
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.exe.manifest
+Z:\VB.NET Applications\DB_APP\DB_APP\obj\Debug\DB_APP.application
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.exe
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.xml
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.pdb
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\bin\Debug\DB_APP.exe.manifest
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\bin\Debug\DB_APP.application
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\bin\Debug\DB_APP.exe
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\bin\Debug\DB_APP.pdb
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\bin\Debug\DB_APP.xml
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.Form1.resources
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.Resources.resources
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.vbproj.GenerateResource.Cache
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.TrustInfo.xml
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.exe.manifest
+C:\Documents and Settings\polynia.MCAWINDOWS\Desktop\DB_APP\DB_APP\obj\Debug\DB_APP.application

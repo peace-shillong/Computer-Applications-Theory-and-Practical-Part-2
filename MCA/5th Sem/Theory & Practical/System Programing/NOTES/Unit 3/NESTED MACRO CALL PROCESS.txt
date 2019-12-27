@@ -1,0 +1,64 @@
+NESTED MACRO CALL PROCESS	
+----------------------------
+
+		PREVIOUS EXPANSION RECORD (IF ANY)
+		RB - RESERVED PTR POINTING TO PREV RB / null
+		1(RB) - MEC
+		2(RB) - EVTAB PTR
+		3(RB) - APTAB
+		TOS   - EVTAB
+
+EXPANSION OF NESTED MACRO CALLS
+-------------------------------
+
+MACRO							macro header
+INCR	&MEM_VAL, &INCR_VAL, &REG			Macro Prototype stmt
+MOVER	&REG, &MEM_VAL					model stmt
+ADD &REG, &INCR_VAL					model stmt
+MOVEM	&REG, &MEM_VAL					model stmt
+MEND
+
+MACRO
+COMPUTE	&FIRST, &SECOND
+MOVEM	BREG, TMP
+INCR	&FIRST, &SECOND, REG=BREG
+MOVER	BREG, TMP
+MEND
+
+
+ASSUME, COMPUTE MACRO IS IN ENTRY 18 OF MDT
+
+	DEFINITON OF INCR IS SAY 75-78
+
+
+
+(A) BEFORE EXPANSION
+
+	RB--> 	--
+		18
+		--
+		X
+	TOS-->	Y	
+
+(B) DURING EXPANSION
+
+	PRB-->	--
+		18
+		--
+		X
+		Y
+	RB -->	PTR TO PRB
+		75
+		--
+		X
+		Y
+	TOS -->	BREG
+
+(C) AFTER EXPANSION
+
+	RB--> 	--
+		18
+		--
+		X
+	TOS-->	Y	
+

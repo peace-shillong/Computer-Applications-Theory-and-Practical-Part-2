@@ -1,0 +1,433 @@
+
+JOBID
+--------------------
+Accountant
+Cleark
+Manager
+
+3 rows selected.
+
+
+JOBID
+--------------------
+Accountant
+Cleark
+Manager
+
+3 rows selected.
+
+SELECT Concat(FirstName,LastName) as "Employee Names" From empoyees
+                                                           *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+
+JOBID
+--------------------
+Accountant
+Cleark
+Manager
+
+3 rows selected.
+
+SELECT FirstName||' ' ||LastName as "Employee Names" From empoyees
+                                                          *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+
+JOBID
+--------------------
+Accountant
+Cleark
+Manager
+
+3 rows selected.
+
+SELECT firstName||' '||lastName as "Employee Names" From empoyees
+                                                         *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+
+JOBID
+--------------------
+Accountant
+Cleark
+Manager
+
+3 rows selected.
+
+SELECT firstName||' '||lastName as "Employee Names" From empoyees
+                                                         *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SELECT firstName||' '||lastName as "Employee Names" From empoyees
+                                                         *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SELECT firstName||' '||lastName as "Employee Names" From empoyees
+                                                         *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SELECT firstName||' '||lastName as "Employee Names" From empoyees
+                                                         *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+From empoyees
+     *
+ERROR at line 2:
+ORA-00942: table or view does not exist
+
+
+From empoyees
+     *
+ERROR at line 2:
+ORA-00942: table or view does not exist
+
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+OUTPUT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20,Jill,Syiem,jil@rediff.com,225067,01-JAN-00,0,Manager,,10,20000
+30,Kyrmen,Lanong,kyrmen@msn.com,221131,12-FEB-01,3000,Accountant,40,20,15000
+40,Sarah,Sen,sush@yahoo.com,211700,12-AUG-98,0,Manager,,20,20000
+10,Jack,Brown,jack@yahoo.com,211532,19-DEC-99,2000,Cleark,20,10,10000
+
+4 rows selected.
+
+where salary Between(12000,20000)
+                          *
+ERROR at line 3:
+ORA-00907: missing right parenthesis
+
+
+SELECT lastName,jobid, as "Employee Names"
+                       *
+ERROR at line 1:
+ORA-00936: missing expression
+
+
+SELECT lastName,jobid, as "Employee Names"
+                       *
+ERROR at line 1:
+ORA-00936: missing expression
+
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+OUTPUT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20,Jill,Syiem,jil@rediff.com,225067,01-JAN-00,0,Manager,,10,20000
+30,Kyrmen,Lanong,kyrmen@msn.com,221131,12-FEB-01,3000,Accountant,40,20,15000
+40,Sarah,Sen,sush@yahoo.com,211700,12-AUG-98,0,Manager,,20,20000
+10,Jack,Brown,jack@yahoo.com,211532,19-DEC-99,2000,Cleark,20,10,10000
+
+4 rows selected.
+
+
+FIRSTNAME                SALARY
+-------------------- ----------
+Jill                      20000
+Kyrmen                    15000
+Sarah                     20000
+
+3 rows selected.
+
+SELECT lastName,jobid, as "Employee Names"
+                       *
+ERROR at line 1:
+ORA-00936: missing expression
+
+
+SELECT lastName,jobid, as "Employee Names"
+                       *
+ERROR at line 1:
+ORA-00936: missing expression
+
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+OUTPUT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20,Jill,Syiem,jil@rediff.com,225067,01-JAN-00,0,Manager,,10,20000
+30,Kyrmen,Lanong,kyrmen@msn.com,221131,12-FEB-01,3000,Accountant,40,20,15000
+40,Sarah,Sen,sush@yahoo.com,211700,12-AUG-98,0,Manager,,20,20000
+10,Jack,Brown,jack@yahoo.com,211532,19-DEC-99,2000,Cleark,20,10,10000
+
+4 rows selected.
+
+
+FIRSTNAME                SALARY
+-------------------- ----------
+Jill                      20000
+Kyrmen                    15000
+Sarah                     20000
+
+3 rows selected.
+
+
+no rows selected
+
+
+no rows selected
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+OUTPUT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20,Jill,Syiem,jil@rediff.com,225067,01-JAN-00,0,Manager,,10,20000
+30,Kyrmen,Lanong,kyrmen@msn.com,221131,12-FEB-01,3000,Accountant,40,20,15000
+40,Sarah,Sen,sush@yahoo.com,211700,12-AUG-98,0,Manager,,20,20000
+10,Jack,Brown,jack@yahoo.com,211532,19-DEC-99,2000,Cleark,20,10,10000
+
+4 rows selected.
+
+
+FIRSTNAME                SALARY
+-------------------- ----------
+Jill                      20000
+Kyrmen                    15000
+Sarah                     20000
+
+3 rows selected.
+
+
+no rows selected
+
+where departmentno in (10,20,50)
+      *
+ERROR at line 3:
+ORA-00904: "DEPARTMENTNO": invalid identifier
+
+
+where departmentno in (10,20,50)
+      *
+ERROR at line 3:
+ORA-00904: "DEPARTMENTNO": invalid identifier
+
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+OUTPUT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20,Jill,Syiem,jil@rediff.com,225067,01-JAN-00,0,Manager,,10,20000
+30,Kyrmen,Lanong,kyrmen@msn.com,221131,12-FEB-01,3000,Accountant,40,20,15000
+40,Sarah,Sen,sush@yahoo.com,211700,12-AUG-98,0,Manager,,20,20000
+10,Jack,Brown,jack@yahoo.com,211532,19-DEC-99,2000,Cleark,20,10,10000
+
+4 rows selected.
+
+
+FIRSTNAME                SALARY
+-------------------- ----------
+Jill                      20000
+Kyrmen                    15000
+Sarah                     20000
+
+3 rows selected.
+
+
+no rows selected
+
+
+EMPLOYEEID FIRSTNAME            LASTNAME             EMAIL                   PHONENO HIREDATE  COMMISION_PCT JOBID                 MANAGERID DEPARTMENTID     SALARY
+---------- -------------------- -------------------- -------------------- ---------- --------- ------------- -------------------- ---------- ------------ ----------
+        20 Jill                 Syiem                jil@rediff.com           225067 01-JAN-00             0 Manager                                   10      20000
+        30 Kyrmen               Lanong               kyrmen@msn.com           221131 12-FEB-01          3000 Accountant                   40           20      15000
+        40 Sarah                Sen                  sush@yahoo.com           211700 12-AUG-98             0 Manager                                   20      20000
+        10 Jack                 Brown                jack@yahoo.com           211532 19-DEC-99          2000 Cleark                       20           10      10000
+
+4 rows selected.
+
+
+EMPLOYEEID FIRSTNAME            LASTNAME             EMAIL                   PHONENO HIREDATE  COMMISION_PCT JOBID                 MANAGERID DEPARTMENTID     SALARY
+---------- -------------------- -------------------- -------------------- ---------- --------- ------------- -------------------- ---------- ------------ ----------
+        20 Jill                 Syiem                jil@rediff.com           225067 01-JAN-00             0 Manager                                   10      20000
+        30 Kyrmen               Lanong               kyrmen@msn.com           221131 12-FEB-01          3000 Accountant                   40           20      15000
+        40 Sarah                Sen                  sush@yahoo.com           211700 12-AUG-98             0 Manager                                   20      20000
+        10 Jack                 Brown                jack@yahoo.com           211532 19-DEC-99          2000 Cleark                       20           10      10000
+
+4 rows selected.
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+OUTPUT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20,Jill,Syiem,jil@rediff.com,225067,01-JAN-00,0,Manager,,10,20000
+30,Kyrmen,Lanong,kyrmen@msn.com,221131,12-FEB-01,3000,Accountant,40,20,15000
+40,Sarah,Sen,sush@yahoo.com,211700,12-AUG-98,0,Manager,,20,20000
+10,Jack,Brown,jack@yahoo.com,211532,19-DEC-99,2000,Cleark,20,10,10000
+
+4 rows selected.
+
+
+FIRSTNAME                SALARY
+-------------------- ----------
+Jill                      20000
+Kyrmen                    15000
+Sarah                     20000
+
+3 rows selected.
+
+
+no rows selected
+
+
+EMPLOYEEID FIRSTNAME            LASTNAME             EMAIL                   PHONENO HIREDATE  COMMISION_PCT JOBID                 MANAGERID DEPARTMENTID     SALARY
+---------- -------------------- -------------------- -------------------- ---------- --------- ------------- -------------------- ---------- ------------ ----------
+        20 Jill                 Syiem                jil@rediff.com           225067 01-JAN-00             0 Manager                                   10      20000
+        30 Kyrmen               Lanong               kyrmen@msn.com           221131 12-FEB-01          3000 Accountant                   40           20      15000
+        40 Sarah                Sen                  sush@yahoo.com           211700 12-AUG-98             0 Manager                                   20      20000
+        10 Jack                 Brown                jack@yahoo.com           211532 19-DEC-99          2000 Cleark                       20           10      10000
+
+4 rows selected.
+
+where commision >0 And departmentid in (10,20)
+      *
+ERROR at line 3:
+ORA-00904: "COMMISION": invalid identifier
+
+
+where commision >0 And departmentid in (10,20)
+      *
+ERROR at line 3:
+ORA-00904: "COMMISION": invalid identifier
+
+
+
+Employee Names
+-----------------------------------------
+Jill Syiem
+Kyrmen Lanong
+Sarah Sen
+Jack Brown
+
+4 rows selected.
+
+
+OUTPUT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20,Jill,Syiem,jil@rediff.com,225067,01-JAN-00,0,Manager,,10,20000
+30,Kyrmen,Lanong,kyrmen@msn.com,221131,12-FEB-01,3000,Accountant,40,20,15000
+40,Sarah,Sen,sush@yahoo.com,211700,12-AUG-98,0,Manager,,20,20000
+10,Jack,Brown,jack@yahoo.com,211532,19-DEC-99,2000,Cleark,20,10,10000
+
+4 rows selected.
+
+
+FIRSTNAME                SALARY
+-------------------- ----------
+Jill                      20000
+Kyrmen                    15000
+Sarah                     20000
+
+3 rows selected.
+
+
+no rows selected
+
+
+EMPLOYEEID FIRSTNAME            LASTNAME             EMAIL                   PHONENO HIREDATE  COMMISION_PCT JOBID                 MANAGERID DEPARTMENTID     SALARY
+---------- -------------------- -------------------- -------------------- ---------- --------- ------------- -------------------- ---------- ------------ ----------
+        20 Jill                 Syiem                jil@rediff.com           225067 01-JAN-00             0 Manager                                   10      20000
+        30 Kyrmen               Lanong               kyrmen@msn.com           221131 12-FEB-01          3000 Accountant                   40           20      15000
+        40 Sarah                Sen                  sush@yahoo.com           211700 12-AUG-98             0 Manager                                   20      20000
+        10 Jack                 Brown                jack@yahoo.com           211532 19-DEC-99          2000 Cleark                       20           10      10000
+
+4 rows selected.
+
+
+EMPLOYEEID FIRSTNAME            LASTNAME             EMAIL                   PHONENO HIREDATE  COMMISION_PCT JOBID                 MANAGERID DEPARTMENTID     SALARY
+---------- -------------------- -------------------- -------------------- ---------- --------- ------------- -------------------- ---------- ------------ ----------
+        30 Kyrmen               Lanong               kyrmen@msn.com           221131 12-FEB-01          3000 Accountant                   40           20      15000
+        10 Jack                 Brown                jack@yahoo.com           211532 19-DEC-99          2000 Cleark                       20           10      10000
+
+2 rows selected.
+

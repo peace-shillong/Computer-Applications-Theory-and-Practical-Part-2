@@ -1,0 +1,10 @@
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\bin\Debug\Q4SumDiffDiagonal.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\bin\Debug\Q4SumDiffDiagonal.pdb
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\bin\Debug\Q4SumDiffDiagonal.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\obj\Debug\Q4SumDiffDiagonal.Form1.resources
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\obj\Debug\Q4SumDiffDiagonal.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\obj\Debug\Q4SumDiffDiagonal.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\obj\Debug\Q4SumDiffDiagonal.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\obj\Debug\Q4SumDiffDiagonal.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array GUI WKS\Q4SumDiffDiagonal\Q4SumDiffDiagonal\obj\Debug\Q4SumDiffDiagonal.pdb

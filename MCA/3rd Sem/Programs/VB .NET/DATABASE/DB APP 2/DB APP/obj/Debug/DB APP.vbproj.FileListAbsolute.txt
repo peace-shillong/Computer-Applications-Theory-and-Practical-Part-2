@@ -1,0 +1,39 @@
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.AddStudent.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Form1.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Resources.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ViewAllStudents.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.exe
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.pdb
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.xml
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.xml
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.pdb
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.DeleteStudent.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.xml
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.pdb
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.exe
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.pdb
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.xml
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\ResolveAssemblyReference.cache
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.AddStudent.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.DeleteStudent.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Form1.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Resources.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ViewAllStudents.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB APP.exe
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB APP.xml
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB APP.pdb
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB_APP.AddEntry.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB_APP.DeleteStudent.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB_APP.Form1.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB_APP.Resources.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB_APP.ViewAllStudents.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\obj\Debug\DB APP.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\bin\Debug\DB APP.exe
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\bin\Debug\DB APP.pdb
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP 2\DB APP\bin\Debug\DB APP.xml

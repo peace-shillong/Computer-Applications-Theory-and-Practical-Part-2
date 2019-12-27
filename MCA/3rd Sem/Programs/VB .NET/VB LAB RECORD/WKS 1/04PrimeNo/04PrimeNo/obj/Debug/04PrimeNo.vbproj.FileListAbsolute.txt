@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\bin\Debug\04PrimeNo.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\bin\Debug\04PrimeNo.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\bin\Debug\04PrimeNo.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\obj\Debug\_04PrimeNo.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\obj\Debug\04PrimeNo.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\obj\Debug\04PrimeNo.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\obj\Debug\04PrimeNo.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04PrimeNo\04PrimeNo\obj\Debug\04PrimeNo.pdb

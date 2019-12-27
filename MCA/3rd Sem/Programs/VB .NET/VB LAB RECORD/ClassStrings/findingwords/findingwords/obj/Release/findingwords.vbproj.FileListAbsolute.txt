@@ -1,0 +1,18 @@
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\bin\Release\findingwords.dll
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\bin\Release\findingwords.pdb
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\bin\Release\findingwords.xml
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\obj\Release\ResolveAssemblyReference.cache
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\obj\Release\findingwords.Resources.resources
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\obj\Release\findingwords.vbproj.GenerateResource.Cache
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\obj\Release\findingwords.dll
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\obj\Release\findingwords.xml
+Z:\MCA 3sem\vb.net\classes\findingwords\findingwords\obj\Release\findingwords.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\bin\Release\findingwords.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\bin\Release\findingwords.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\bin\Release\findingwords.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\obj\Release\findingwords.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\obj\Release\findingwords.vbproj.GenerateResource.Cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\obj\Release\findingwords.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\obj\Release\findingwords.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassStrings\New folder\findingwords\findingwords\obj\Release\findingwords.pdb

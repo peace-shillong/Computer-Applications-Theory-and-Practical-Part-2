@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\bin\Debug\07FactorsNumber.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\bin\Debug\07FactorsNumber.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\bin\Debug\07FactorsNumber.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\obj\Debug\_07FactorsNumber.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\obj\Debug\07FactorsNumber.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\obj\Debug\07FactorsNumber.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\obj\Debug\07FactorsNumber.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\07FactorsNumber\07FactorsNumber\obj\Debug\07FactorsNumber.pdb

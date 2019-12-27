@@ -1,0 +1,25 @@
+%{
+	/*
+		Lex Program to create a symbol table:
+		Structure: Token Code LineNo
+	*/
+	FILE *fp1,*fp2;
+	int lineNo=1;
+%}
+
+keyword if|else|switch|while|for
+operator [+*/%\-]
+
+%%
+keyword { fprintf(fp2,"%s %s %d",yytext, "KEYWORD", lineNo)};
+operator { fprintf(fp2,"%s %s %d",yytext, "KEYWORD", lineNo)};	
+\n { lineNo++; }
+%%
+void main(int argc,char *argv[])
+{	
+	yyin=fopen(argv[1],"r");
+	fp2=fopen("symbol_table.txt","w");
+	yylex();
+	fclose(fp1);
+	fclose(fp2);		
+} 

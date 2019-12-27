@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\bin\Debug\04sumfigit.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\bin\Debug\04sumfigit.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\bin\Debug\04sumfigit.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\obj\Debug\_04sumfigit.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\obj\Debug\04sumfigit.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\obj\Debug\04sumfigit.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\obj\Debug\04sumfigit.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\04sumfigit\04sumfigit\obj\Debug\04sumfigit.pdb

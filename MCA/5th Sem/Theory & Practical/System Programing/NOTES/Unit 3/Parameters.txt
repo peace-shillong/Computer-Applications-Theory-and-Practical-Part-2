@@ -1,0 +1,90 @@
+Positional Parameters - Macro definition
+-----------------------------------------
+
+MACRO							
+INCR	&MEM_VAL, &INCR_VAL, &REG			
+MOVER	&REG, &MEM_VAL					
+ADD &REG, &INCR_VAL					
+MOVEM	&REG, &MEM_VAL					
+MEND							
+
+
+Macro call for Positional Parameters
+------------------------------------
+
+INCR	A, B, AREG
+
+
+Keyword Paramereters - Macro definition
+----------------------------------------
+
+MACRO							
+INCR	&MEM_VAL=, &INCR_VAL=, &REG=
+MOVER	&REG, &MEM_VAL					
+ADD &REG, &INCR_VAL					
+MOVEM	&REG, &MEM_VAL					
+MEND					
+
+
+Macro call for Keyword Parameters
+---------------------------------
+
+INCR	MEM_VAL=A, INCR_VAL=B, REG=AREG
+
+
+
+Default Paramereters - Macro definition
+----------------------------------------
+
+MACRO							
+INCR	&MEM_VAL=, &INCR_VAL=, &REG=AREG
+MOVER	&REG, &MEM_VAL					
+ADD &REG, &INCR_VAL					
+MOVEM	&REG, &MEM_VAL					
+MEND					
+
+
+Macro call for Default Parameters
+---------------------------------
+
+INCR	MEM_VAL=A, INCR_VAL=B, REG=BREG
+
+
+Mixed Paramereters - Macro definition
+--------------------------------------
+
+MACRO							
+INCR	&MEM_VAL, &INCR_VAL=, &REG=AREG
+MOVER	&REG, &MEM_VAL					
+ADD &REG, &INCR_VAL					
+MOVEM	&REG, &MEM_VAL					
+MEND					
+
+
+Macro call for Mixed Parameters
+---------------------------------
+
+INCR	A, INCR_VAL=B
+
+
+Other uses of Parameters
+-------------------------
+
+	MACRO
+	CALC	&X, &Y, &OP=MULT, &LAB=
+&LAB	MOVER	AREG, &X
+	&OP	AREG, &Y
+	MOVEM	AREG, &X
+	MEND
+
+
+Expansion of the call CALC A,B,LAB=LOOP is
+
+
++ LOOP 	MOVER	AREG, A
++	MULT	AREG, B
++	MOVEM	AREG, A
+
+
+	
+

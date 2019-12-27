@@ -1,0 +1,10 @@
+
+LASTNAME             JOBID                HIREDATE  EMPLOYEEID
+-------------------- -------------------- --------- ----------
+Brown                Cleark               19-DEC-99         10
+Lanong               Accountant           12-FEB-01         30
+Sen                  Manager              12-AUG-98         40
+Syiem                Manager              01-JAN-00         20
+
+4 rows selected.
+

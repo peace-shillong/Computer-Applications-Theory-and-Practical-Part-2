@@ -1,0 +1,13 @@
+%{
+#include<stdio.h>
+%}
+%option noyywrap
+%%
+^11$ {printf("Binary String Accepted");}
+.* ECHO;
+%%
+
+void main()
+{
+	yylex();
+}

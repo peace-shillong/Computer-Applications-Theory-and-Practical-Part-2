@@ -1,0 +1,22 @@
+#!/perl/usr/bin
+
+print "\n Enter the file :";
+chomp($file = <STDIN>);
+
+if(-e $file)
+{
+	print "\n File exists... \n";
+	if(-d $file)
+	{
+		print "\n File is a directory.. \n";
+	}
+	if(-f $file)
+	{
+		print "\n It is a file.. \n ";
+	}
+}
+else
+{
+print "\n File does not exists.. \n";
+}
+

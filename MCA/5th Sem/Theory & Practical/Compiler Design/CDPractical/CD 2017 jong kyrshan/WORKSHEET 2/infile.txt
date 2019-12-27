@@ -1,0 +1,6 @@
+This is my 1st lex program!!!
+Cheers!! It works!!:)
+printf("\n\t%d small letters", s_letters);
+printf("\n\t%d capital letters",c_letters);
+printf("\n\t%d digits", num);
+printf("\n\t%d special characters",spl_char);

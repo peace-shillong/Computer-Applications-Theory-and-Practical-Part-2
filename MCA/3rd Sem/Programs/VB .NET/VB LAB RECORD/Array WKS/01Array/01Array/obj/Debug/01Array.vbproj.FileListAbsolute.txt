@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\bin\Debug\01Array.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\bin\Debug\01Array.pdb
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\bin\Debug\01Array.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\obj\Debug\_01Array.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\obj\Debug\01Array.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\obj\Debug\01Array.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\obj\Debug\01Array.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01Array\01Array\obj\Debug\01Array.pdb

@@ -1,0 +1,49 @@
+%{
+        
+          FILE *fp;
+          int lno=1;
+%}
+reserved_word if|then|else|end|do|while|read|write
+%%
+{reserved_word} {
+		 	fprintf(fp,"%s\t%s\t%d\n",yytext,"RESERVED WORD",lno);
+			printf("%s %s %d\n",yytext,"RESERVED WORD",lno);
+		 	ECHO;
+	   	}
+[\+\-\*/><|);]|[:][=] {
+		 	fprintf(fp,"%s\t%s\t%d\n",yytext,"SPECIAL SYMBOL",lno);
+			printf("%s %s %d\n",yytext,"SPECIAL SYMBOL",lno);
+		 	ECHO;
+	   	 }
+[0-9]+|[\+\-][0-9]+\.[0-9]+E[\+\-][0-9]+|[A-z]+([A-z]|[0-9]|_)* {
+							fprintf(fp,"%s\t%s\t%d\n",yytext,"OTHERS",lno);
+							printf("%s %s %d",yytext,"OTHERS",lno);
+							ECHO;
+						}
+[{].+[}] {
+		fprintf(fp,"%s\t%s\t%d\n",yytext,"OTHERS",lno);
+		printf("%s %s %d",yytext,"OTHERS",lno);
+	 }
+[\n] {
+     	lno++;
+	ECHO;
+     }
+. {
+	 ECHO;
+  }
+%%
+void main()
+{
+        
+        printf("\n Enter Something : ");
+        
+        yylex();
+         
+        return;
+}
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+%{
+	//program to capitalize the given comments
+	#include<stdio.h>
+	char * touper(char *);
+	
+%}
+%%
+[\/]{2}[a-z\-]+ {printf("\n\t %s ",touper(yytext));}
+%%
+main()
+{
+	yylex();
+}
+char * touper(char * s)
+{
+	int i;
+	for(i = 2;s[i] != '\0';i++)
+	{	/*if(s[i]==32)
+			break;
+		else
+			s[i] = s[i]-32;*/
+		if(s[i]==' ')
+			break;
+		s[i] = toupper(s[i]);
+		printf("%c",s[i]);
+	}
+}
+

@@ -1,0 +1,5 @@
+Sum of Salary40000
+Average of Salary20000
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,18 @@
+%{
+#include<stdio.h>
+int c=0,w=0,l=0,s=0;
+%}
+%%
+" "	{s++;c++;}
+[\n]	{l++;c++;}
+[^\n\t]+	{w++;c+=yyleng;}
+%%
+main()
+{
+	char fn[25];
+	printf("Enter a file name ");
+	gets(fn);
+        yyin=fopen(fn,"r");
+	yylex();
+	printf("Chars=%d\nSpaces=%d\nLines=%d\nWord=%d\n",c,s,l,w);
+}

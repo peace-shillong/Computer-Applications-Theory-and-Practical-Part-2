@@ -1,0 +1,1 @@
+show errors trigger trigger_contacts_del;

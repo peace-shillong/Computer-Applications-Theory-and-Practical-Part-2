@@ -1,0 +1,5 @@
+Kindly find the YACC programs:
+
+1. To check for syntax: for.y and for.l [Kindly note: while will be similar to try on your own]
+
+2. To evaluates postfix expression: postfix.y and postfix.y

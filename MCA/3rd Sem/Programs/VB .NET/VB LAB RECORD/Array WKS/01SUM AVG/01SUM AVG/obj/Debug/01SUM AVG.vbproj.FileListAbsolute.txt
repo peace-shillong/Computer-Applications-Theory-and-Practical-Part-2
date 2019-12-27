@@ -1,0 +1,10 @@
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\bin\Debug\01SUM AVG.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\bin\Debug\01SUM AVG.pdb
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\bin\Debug\01SUM AVG.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\obj\Debug\_01SUM_AVG.Form1.resources
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\obj\Debug\_01SUM_AVG.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\obj\Debug\01SUM AVG.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\obj\Debug\01SUM AVG.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\obj\Debug\01SUM AVG.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\01SUM AVG\01SUM AVG\obj\Debug\01SUM AVG.pdb

@@ -1,0 +1,79 @@
+From: <Saved by Windows Internet Explorer 8>
+Subject: 
+Date: Sat, 6 Mar 2010 13:06:15 +0530
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://archive.ics.uci.edu/ml/machine-learning-databases/plants/plants.names
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702"></HEAD>
+<BODY><PRE>Title: Plants=20
+
+Abstract: Data has been extracted from the USDA plants database. It=20
+contains all plants (species and genera) in the database and the states=20
+of USA and Canada where they occur.
+
+-----------------------------------------------------------------------
+
+Data Set Characteristics: Multivariate
+Attribute Characteristics: Categorical
+Associated Tasks: Clustering
+Number of Instances: 22632
+Number of Attributes: 70
+Missing Values? Yes
+Area: Life
+Date Donated: 2008-12-31
+
+-----------------------------------------------------------------------
+
+Source:
+
+Original source:
+USDA plants database: http://plants.usda.gov/index.html
+
+Extracted and encoded by W. H=E4m=E4l=E4inen, Department of Computer =
+Science,=20
+University of Helsinki, Finland. whamalai '@' cs.helsinki.fi
+
+-----------------------------------------------------------------------
+
+Data Set Information:
+
+The data is in the transactional form. It contains the Latin names=20
+(species or genus) and state abbreviations.=20
+
+-----------------------------------------------------------------------
+
+Attribute Information:
+
+Each row contains a Latin name (species or genus) and a list of state=20
+abbreviations.=20
+
+-----------------------------------------------------------------------
+
+Relevant Papers:
+
+H=E4m=E4l=E4inen, W. and Nyk=E4nen, M.: Efficient discovery of =
+statistically=20
+significant association rules. Proceedings of the 8th IEEE International =
+
+Conference on Data Mining (ICDM 2008), pp. 203-212. IEEE Computer=20
+Society 2008.=20
+
+-----------------------------------------------------------------------
+
+Citation Request:
+
+Even if the data is processed, it is good to give a reference to the=20
+original source:
+
+USDA, NRCS. 2008. The PLANTS Database (http://plants.usda.gov/, 31=20
+December 2008). National Plant Data Center, Baton Rouge, LA 70874-4490 =
+USA.
+</PRE></BODY></HTML>

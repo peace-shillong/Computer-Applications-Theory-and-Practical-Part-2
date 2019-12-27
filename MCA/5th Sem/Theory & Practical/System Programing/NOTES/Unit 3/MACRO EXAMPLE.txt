@@ -1,0 +1,17 @@
+MACRO EXAMPLE
+--------------
+
+MACRO							macro header
+INCR	&MEM_VAL, &INCR_VAL, &REG			Macro Prototype stmt
+MOVER	&REG, &MEM_VAL					model stmt
+ADD &REG, &INCR_VAL					model stmt
+MOVEM	&REG, &MEM_VAL					model stmt
+MEND							macro end stmt
+
+
+Macro call
+-----------
+
+INCR	A, B, AREG
+
+

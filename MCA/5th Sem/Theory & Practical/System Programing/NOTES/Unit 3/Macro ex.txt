@@ -1,0 +1,65 @@
+MNT
+
+(clearmem, 2, 1, 1, 54, 23, 57 )
+
+PNTAB
+	X
+	N
+	REG
+
+EVNTAB
+	M
+
+SSNTAB
+	MORE
+
+
+KPDTAB
+	23 -	REG AREG
+
+
+SSTAB
+	12 -  	57
+
+MDT
+	
+	54 - 		LCL (E,1)
+	55 - 	(E,1)	SET 0
+	56 - 		MOVER (P,3), ='0'
+	57	(S,1)	MOVEM (P,3),((P,1)+(E,1))
+	58	(E,1)	SET (E,1)+1
+	59		AIF ((E,1) NE (P,2)) (S,1)
+	 
+
+
+APTAB
+	AREA
+	10
+	AREG
+
+EVTAB
+	0
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

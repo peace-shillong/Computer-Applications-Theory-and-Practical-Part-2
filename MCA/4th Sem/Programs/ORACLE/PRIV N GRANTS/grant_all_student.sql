@@ -1,0 +1,1 @@
+grant all on students to user19,user02;

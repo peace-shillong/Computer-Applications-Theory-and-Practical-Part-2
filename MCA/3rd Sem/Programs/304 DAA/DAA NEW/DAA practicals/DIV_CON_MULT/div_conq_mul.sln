@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "div_conq_mul", "div_conq_mul.vcproj", "{9B926068-E542-4132-8809-2603244DF0B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B926068-E542-4132-8809-2603244DF0B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B926068-E542-4132-8809-2603244DF0B9}.Debug|Win32.Build.0 = Debug|Win32
+		{9B926068-E542-4132-8809-2603244DF0B9}.Release|Win32.ActiveCfg = Release|Win32
+		{9B926068-E542-4132-8809-2603244DF0B9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

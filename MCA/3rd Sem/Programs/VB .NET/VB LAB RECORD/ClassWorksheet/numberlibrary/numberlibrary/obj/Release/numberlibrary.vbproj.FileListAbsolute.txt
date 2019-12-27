@@ -1,0 +1,18 @@
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\bin\Release\numberlibrary.dll
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\bin\Release\numberlibrary.pdb
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\bin\Release\numberlibrary.xml
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\obj\Release\ResolveAssemblyReference.cache
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\obj\Release\numberlibrary.Resources.resources
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\obj\Release\numberlibrary.vbproj.GenerateResource.Cache
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\obj\Release\numberlibrary.dll
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\obj\Release\numberlibrary.xml
+Z:\MCA 3sem\vb.net\classes\numberlibrary\numberlibrary\obj\Release\numberlibrary.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\bin\Release\numberlibrary.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\bin\Release\numberlibrary.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\bin\Release\numberlibrary.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\obj\Release\numberlibrary.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\obj\Release\numberlibrary.vbproj.GenerateResource.Cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\obj\Release\numberlibrary.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\obj\Release\numberlibrary.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\numberlibrary\numberlibrary\obj\Release\numberlibrary.pdb

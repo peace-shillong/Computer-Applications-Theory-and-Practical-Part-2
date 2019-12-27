@@ -1,0 +1,30 @@
+Nested macro calls
+------------------
+
+MACRO							
+INCR	&MEM_VAL, &INCR_VAL, &REG=			
+MOVER	&REG, &MEM_VAL					
+ADD &REG, &INCR_VAL					
+MOVEM	&REG, &MEM_VAL					
+MEND
+
+MACRO
+COMPUTE	&FIRST, &SECOND
+MOVEM	BREG, TMP
+INCR	&FIRST, &SECOND, REG=BREG
+MOVER	BREG, TMP
+MEND
+
+
+The macro call COMPUTE X, Y leads to the following expansion
+
+
++ MOVEM	BREG, TMP 
++ MOVER	BREG, X		for INCR		
++ ADD 	BREG, Y		for INCR
++ MOVEM	BREG, X		for INCR
++ MOVER	BREG, TMP
+
+
+
+

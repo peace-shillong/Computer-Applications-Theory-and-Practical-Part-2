@@ -1,0 +1,64 @@
+%{
+ 
+#include<stdio.h>
+
+%}
+%token NUMBER WORD GT EQ LT NEQ
+%%
+stmt: expression'?'WORD':'WORD';''\n' { 
+	if($$==1)
+		printf("\n%s\n","true");
+	else
+		printf("\n%s\n","false");
+	return;
+ }
+expression: expression'>'NUMBER { 
+		if($1>$3)
+			$$=1;
+		else
+			$$=0;
+	}
+ |expression'<'NUMBER {
+		if($1<$3)
+			$$=1;
+		else
+			$$=0;
+	}	
+ |expression GT NUMBER {
+		if($1>=$3)
+			$$=1;
+		else
+			$$=0;
+	}
+ |expression LT NUMBER {
+		if($1<=$3)
+			$$=1;
+		else
+			$$=0;
+	}
+ |expression EQ NUMBER {
+		if($1==$3)
+			$$=1;
+		else
+			$$=0;
+	}
+ |expression NEQ NUMBER {
+		if($1!=$3)
+			$$=1;
+		else
+			$$=0;
+	}
+ |NUMBER {$$=$1;}
+%%
+main()
+{
+	printf("\nEnter ternary operator expressionression:");
+	yyparse();
+	return;
+}
+void yyerror()
+{
+	printf("\nEnter expressionression e.g: 1<3?true:false\n");
+	return;
+}
+

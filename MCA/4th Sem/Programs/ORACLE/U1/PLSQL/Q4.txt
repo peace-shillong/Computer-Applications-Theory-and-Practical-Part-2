@@ -1,0 +1,5 @@
+Number of Locations 4
+Number of Departments 4
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,13 @@
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\bin\Debug\02Armstrong.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\bin\Debug\02Armstrong.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\bin\Debug\02Armstrong.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\_02Armstrong.Form1.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\_02Armstrong.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\02Armstrong.vbproj.GenerateResource.Cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\02Armstrong.exe
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\02Armstrong.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\02Armstrong.pdb
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\02Armstrong.exe
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\02Armstrong.xml
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassWorksheet\02Armstrong\02Armstrong\obj\Debug\02Armstrong.pdb

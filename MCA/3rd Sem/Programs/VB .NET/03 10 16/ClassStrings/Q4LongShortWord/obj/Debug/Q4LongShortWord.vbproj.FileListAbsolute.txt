@@ -1,0 +1,16 @@
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\bin\Debug\Q4LongShortWord.exe
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\bin\Debug\Q4LongShortWord.pdb
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\bin\Debug\Q4LongShortWord.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\bin\Debug\LongShortlib.dll
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\bin\Debug\LongShortlib.pdb
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\bin\Debug\LongShortlib.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\obj\Debug\Q4LongShortWord.Form1.resources
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\obj\Debug\Q4LongShortWord.Resources.resources
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\obj\Debug\Q4LongShortWord.vbproj.GenerateResource.Cache
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\obj\Debug\Q4LongShortWord.exe
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\obj\Debug\Q4LongShortWord.xml
+C:\Documents and Settings\kyrsh01\My Documents\Visual Studio 2008\Projects\Q4LongShortWord\obj\Debug\Q4LongShortWord.pdb
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\Q4LongShortWord\obj\Debug\Q4LongShortWord.exe
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\Q4LongShortWord\obj\Debug\Q4LongShortWord.xml
+Z:\MCA_3rd_Sem\GUI\03 10 16\ClassStrings\Q4LongShortWord\obj\Debug\Q4LongShortWord.pdb

@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b,result;
+	a = 5;
+	b = 4;
+	if(a>b)
+	{
+		result = a+b;
+	}
+	else
+	{
+		result = a-b;
+	}
+	return(0);	
+}

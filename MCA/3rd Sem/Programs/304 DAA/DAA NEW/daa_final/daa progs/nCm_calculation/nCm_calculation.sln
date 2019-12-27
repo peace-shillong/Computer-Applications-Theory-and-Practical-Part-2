@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "nCm_calculation", "nCm_calculation\nCm_calculation.vbproj", "{1F308793-E9A2-45BC-B3A9-8F8C72F19BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F308793-E9A2-45BC-B3A9-8F8C72F19BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F308793-E9A2-45BC-B3A9-8F8C72F19BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F308793-E9A2-45BC-B3A9-8F8C72F19BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F308793-E9A2-45BC-B3A9-8F8C72F19BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

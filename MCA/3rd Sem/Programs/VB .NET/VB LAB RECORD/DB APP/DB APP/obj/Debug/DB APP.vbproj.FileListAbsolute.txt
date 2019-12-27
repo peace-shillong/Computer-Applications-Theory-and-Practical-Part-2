@@ -1,0 +1,70 @@
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.AddStudent.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Form1.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Resources.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ViewAllStudents.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.exe
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.pdb
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.xml
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.xml
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.pdb
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.DeleteStudent.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.xml
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.pdb
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.exe
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.pdb
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.xml
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\ResolveAssemblyReference.cache
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.AddStudent.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.DeleteStudent.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Form1.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Resources.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ViewAllStudents.resources
+V:\kyrsh01\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ModifyStudent.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ViewCourses.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.exe.manifest
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\bin\Debug\DB APP.application
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.TrustInfo.xml
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe.manifest
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB APP.application
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.AddCourse.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.DeleteCourse.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ModifyCourse.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Enrollment.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.FindStudent.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.FindCourse.resources
+Z:\MCA_3rd_Sem\GUI\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.NewEnroll.resources
+G:\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe
+G:\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.xml
+G:\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.pdb
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.xml
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.pdb
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\bin\Debug\DB APP.exe.manifest
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\bin\Debug\DB APP.application
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\bin\Debug\DB APP.exe
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\bin\Debug\DB APP.pdb
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\bin\Debug\DB APP.xml
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\ResolveAssemblyReference.cache
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.AddCourse.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.AddStudent.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.DeleteCourse.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.DeleteStudent.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Enrollment.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.FindCourse.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.FindStudent.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Form1.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ModifyCourse.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ModifyStudent.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.Resources.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.NewEnroll.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ViewAllStudents.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB_APP.ViewCourses.resources
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.vbproj.GenerateResource.Cache
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.TrustInfo.xml
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.exe.manifest
+D:\Multimedia\Books Text\MCA 1st yr\3rd Semester\2016\3rd Sem Mine NEw\Notes\DATABASE\DB APP\DB APP\obj\Debug\DB APP.application

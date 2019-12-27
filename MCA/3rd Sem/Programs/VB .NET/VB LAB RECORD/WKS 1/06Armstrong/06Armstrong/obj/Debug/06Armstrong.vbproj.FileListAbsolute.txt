@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\bin\Debug\06Armstrong.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\bin\Debug\06Armstrong.pdb
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\bin\Debug\06Armstrong.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\obj\Debug\_06Armstrong.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\obj\Debug\06Armstrong.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\obj\Debug\06Armstrong.exe
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\obj\Debug\06Armstrong.xml
+Z:\MCA_3rd_Sem\GUI\U1\WKS 1\06Armstrong\06Armstrong\obj\Debug\06Armstrong.pdb

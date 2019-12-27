@@ -1,0 +1,25 @@
+%{
+	#include<stdio.h>
+	int cwords=0;
+	int clines=0;
+
+	
+%}
+
+%%
+[A-Za-z]+ {
+		
+		cwords++;		
+	  }
+[\n] 	{
+		clines++;
+	}
+%%
+void main()
+{
+	yyin=fopen("hello.txt","r");
+	yylex();
+	printf("\n Total number of words and lines = %d \t %d",cwords,clines);
+	
+	fclose(yyin);
+}

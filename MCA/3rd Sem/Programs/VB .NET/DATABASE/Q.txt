@@ -1,0 +1,10 @@
+Q. Do Gen ID for Course
+For adding a new course, the apllication should generate the key that is CourseID.
+The ID Should be the next Value after the Maximum value Found Presently in the Table 
+Q2. For Deleting a course allow the user to select course name from a drop down list.
+Have controls to display other related info of that selected course.
+
+Q3. For modifying a course, drop down list but do not permit the user to modify the ID 
+which he can view.
+
+

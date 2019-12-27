@@ -1,0 +1,43 @@
+1.
+select dept_no, sum(salary)
+from employees
+group by dept_no;
+
+2.
+select dept_no, sum(salary)
+from employees
+group by dept_no
+having sum(salary)>=30000;
+
+3.
+select dept_no, max(sum(salary))
+from employees
+group by dept_no;
+
+4.
+select dept_no, count(emp_id)
+from employees
+group by dept_no
+having count(emp_id)>1;
+
+5.
+select gender, dept_no,
+sum(salary)
+from employees
+group by gender, dept_no;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

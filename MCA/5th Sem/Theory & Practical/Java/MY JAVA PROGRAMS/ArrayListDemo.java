@@ -1,0 +1,51 @@
+// Demonstrate ArrayList.
+import java.util.*;
+class ArrayListDemo {
+public static void main(String args[]) {
+	
+// Create an array list.
+ArrayList<Person> al = new ArrayList<Person>();
+System.out.println("Initial size of al: " +
+al.size());
+// Add elements to the array list.
+Person p=new Person();
+al.add(p);
+//al.add("A");
+//al.add("E");
+//al.add("B");
+//al.add("D");
+//al.add("F");
+//al.add(1, "A2");
+System.out.println("Size of al after additions: " +
+al.size());
+// Display the array list.
+System.out.println("Contents of al: " + al.toString());
+// Remove elements from the array list.
+//al.remove("F");
+//al.remove(2);
+System.out.println("Size of al after deletions: " +
+al.size());
+System.out.println("Contents of al: " + al);
+}
+}
+
+class Person extends ArrayList{
+	
+	String name;	
+	Person()
+	{
+		name="N";
+		bgroup="N/A";
+	}
+	Person(String nam){
+		name=nam;		
+	}
+	void setName(String nam)
+	{
+		name=nam;		
+	}
+	public String toString()
+	{
+			return name;		
+	}
+}

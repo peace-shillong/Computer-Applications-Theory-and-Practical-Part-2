@@ -1,0 +1,15 @@
+%{
+	#include<stdio.h>
+	FILE *fp;
+%}
+%%
+if|else|for|while|do|[0-9]+|[A-z][A-z0-9_]+ {fprintf(fp,"%s\n",yytext);}
+.* {printf("Not in the list");}
+
+%%
+void main()
+{
+	fp=fopen("nki_list.txt","a");
+	yylex();
+	fclose(fp);
+}

@@ -1,0 +1,39 @@
+#include "stdio.h"
+#include "string.h"
+#include "strings.h"
+int main()
+{
+	char keywords[8][10]={"int","char","(","printf","main","FILE",")","fopen"};
+
+	int count[9]={0};
+	FILE *fp;
+	int i;
+	char str[100];
+
+	fp=fopen("test.c","r");
+	if(fp==NULL)
+	{
+		printf("Cannot Open File.");
+	}
+	while(!feof(fp))
+	{
+		fgets(str,sizeof(str),fp);
+	    for(i=0;i<=7;i++)
+	    {
+		if(strstr(str,keywords[i]))
+		{
+			count[i]++;
+			count[8]++;
+		}		
+	    }
+	}
+
+	for(i=0;i<=5;i++)
+	{
+		printf("\nNumber of %s is %d",keywords[i],count[i]);
+	}
+
+	printf("\nTotal Number of keywords is %d",count[6]);
+
+	exit(0);
+}

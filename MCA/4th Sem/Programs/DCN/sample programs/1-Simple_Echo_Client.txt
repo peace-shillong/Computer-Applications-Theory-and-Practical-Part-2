@@ -1,0 +1,54 @@
+//Simple Echo Server-Client Program
+
+//This is a client program
+
+#include "unp.h"
+
+void str_client(FILE *fp, int sockfd)
+{
+	char str[100];
+	while (fgets(str, 100, fp) != NULL)
+	{
+		write(sockfd, str, strlen(str));
+		if (read(sockfd, str, 100) == 0)
+		{
+			printf("Server terminated prematurely\n\n");
+			exit(1);
+		}
+		fputs(str, stdout);
+	}
+}
+
+int main(int argc, char **argv)
+{
+	int sockfd;
+	struct sockaddr_in servaddr;
+
+	if (argc != 2)
+	{
+		printf("usage: ./client.out <IPaddress>");
+		exit(1);
+	}
+	sockfd = socket(AF_INET, SOCK_STREAM, 0);
+
+	bzero(&servaddr, sizeof(servaddr));
+
+	servaddr.sin_family = AF_INET;
+	servaddr.sin_port = htons(12345);	//port nos same for client & server
+
+	if((inet_pton(AF_INET, argv[1], &servaddr.sin_addr))==0)
+	{
+		printf("\n Invalid IP address\n");
+		exit(1);
+	}
+
+	if((connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr))<0)
+	{
+		printf("\n Connection error\n");
+		exit(1);
+	}
+
+	str_client(stdin, sockfd);		
+
+	exit(0);
+}

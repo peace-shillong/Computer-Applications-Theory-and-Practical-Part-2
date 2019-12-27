@@ -1,0 +1,1876 @@
+From: <Saved by Windows Internet Explorer 8>
+Subject: UCI Machine Learning Repository: Diabetes Data Set
+Date: Sat, 13 Mar 2010 13:48:06 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CAC2B3.CF426550"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CAC2B3.CF426550
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://archive.ics.uci.edu/ml/datasets/Diabetes
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>UCI Machine Learning Repository: Diabetes Data =
+Set</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type><!-- Stylesheet link --><LINK rel=3Dstylesheet =
+
+type=3Dtext/css href=3D"http://archive.ics.uci.edu/ml/assets/ml.css">
+<SCRIPT language=3DJavaScript type=3Dtext/javascript>=0A=
+<!--=0A=
+function checkform ( form )=0A=
+{=0A=
+  // see http://www.thesitewizard.com/archive/validation.shtml=0A=
+  // for an explanation of this script and how to use it on your=0A=
+  // own website=0A=
+=0A=
+  // ** START **=0A=
+  if (form.q.value =3D=3D "")=0A=
+  {=0A=
+    alert( "Please enter search terms." );=0A=
+    form.q.focus();=0A=
+    return false ;=0A=
+  }=0A=
+=0A=
+  if (getCheckedValue(form.sitesearch) =3D=3D "ics.uci.edu" && =
+form.q.value.indexOf("site:archive.ics.uci.edu/ml") =3D=3D -1)=0A=
+  {=0A=
+    form.q.value =3D form.q.value + " site:archive.ics.uci.edu/ml";=0A=
+  }=0A=
+=0A=
+  // ** END **=0A=
+  return true ;=0A=
+}=0A=
+=0A=
+// return the value of the radio button that is checked=0A=
+// return an empty string if none are checked, or=0A=
+// there are no radio buttons=0A=
+function getCheckedValue(radioObj) {=0A=
+	if(!radioObj)=0A=
+		return "";=0A=
+	var radioLength =3D radioObj.length;=0A=
+	if(radioLength =3D=3D undefined)=0A=
+		if(radioObj.checked)=0A=
+			return radioObj.value;=0A=
+		else=0A=
+			return "";=0A=
+	for(var i =3D 0; i < radioLength; i++) {=0A=
+		if(radioObj[i].checked) {=0A=
+			return radioObj[i].value;=0A=
+		}=0A=
+	}=0A=
+	return "";=0A=
+}=0A=
+//-->=0A=
+</SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702"></HEAD>
+<BODY><!-- SITE HEADER (INCLUDES LOGO AND SEARCH BOX) -->
+<TABLE width=3D"100%" bgColor=3D#003366>
+  <TBODY>
+  <TR>
+    <TD><SPAN class=3Dnormal><A =
+href=3D"http://archive.ics.uci.edu/ml/index.html"=20
+      alt=3D"Home"><IMG border=3D0=20
+      =
+src=3D"http://archive.ics.uci.edu/ml/assets/logo.gif"></IMG></A><BR>&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+      href=3D"http://cml.ics.uci.edu/"><FONT color=3D#ffdd33>Center for =
+Machine=20
+      Learning and Intelligent Systems</FONT></A></SPAN> </TD>
+    <TD vAlign=3Dtop width=3D"100%" align=3Dright><SPAN =
+class=3Dwhitetext><A=20
+      href=3D"http://archive.ics.uci.edu/ml/about.html">About</A>&nbsp; =
+<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/citation_policy.html">Citation=20
+      Policy</A>&nbsp; <A=20
+      href=3D"http://archive.ics.uci.edu/ml/donation_policy.html">Donate =
+a Data=20
+      Set</A>&nbsp; <A=20
+      href=3D"http://archive.ics.uci.edu/ml/contact.html">Contact</A>=20
+      </SPAN><BR><BR><!-- Search Google -->
+      <FORM onsubmit=3D"return checkform(this);" method=3Dget=20
+      action=3Dhttp://www.google.com/custom><INPUT maxLength=3D255 =
+size=3D30 name=3Dq> <INPUT value=3DSearch type=3Dsubmit name=3Dsa> =
+<INPUT=20
+      =
+value=3DAH:center;LH:130;L:http://archive.ics.uci.edu/assets/logo.gif;LW:=
+384;AWFID:869c0b2eaa8d518e;=20
+      type=3Dhidden name=3Dcof> <INPUT value=3Dics.uci.edu type=3Dhidden =
+name=3Ddomains>=20
+      <BR><INPUT value=3Dics.uci.edu CHECKED type=3Dradio =
+name=3Dsitesearch> <SPAN=20
+      class=3Dwhitetext><FONT size=3D1>Repository</FONT></SPAN> <INPUT =
+value=3D""=20
+      type=3Dradio name=3Dsitesearch> <SPAN class=3Dwhitetext><FONT=20
+      size=3D1>Web</FONT></SPAN>=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A=20
+      href=3D"http://www.google.com/search"><IMG border=3D0 alt=3DGoogle =
+align=3Dmiddle=20
+      src=3D"http://www.google.com/logos/Logo_25blk.gif" =
+height=3D27></A>=20
+<BR></FORM><!-- Search Google --><SPAN class=3Dwhitetext><A=20
+      href=3D"http://archive.ics.uci.edu/ml/datasets.html"><FONT =
+color=3D#ffdd33=20
+      size=3D3><B>View ALL Data Sets</B></FONT></A></SPAN>=20
+<BR></TD></TR></TBODY></TABLE><BR>
+<TABLE border=3D0 cellPadding=3D2 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dtop>
+            <P><SPAN class=3Dheading><B>Diabetes Data Set</B></SPAN> =
+<BR><SPAN=20
+            class=3Dnormal><I><FONT size=3D4>Download</FONT></I>: <A=20
+            =
+href=3D"http://archive.ics.uci.edu/ml/machine-learning-databases/diabetes=
+/"><FONT=20
+            style=3D"BACKGROUND-COLOR: #ffffaa" size=3D4>Data =
+Folder</FONT></A>, <A=20
+            =
+href=3D"http://archive.ics.uci.edu/ml/machine-learning-databases/diabetes=
+/README"><FONT=20
+            style=3D"BACKGROUND-COLOR: #ffffaa" size=3D4>Data Set=20
+            Description</FONT></A></SPAN></P>
+            <P class=3Dnormal><B>Abstract</B>: This diabetes dataset is =
+from AIM=20
+            '94</P></TD>
+          <TD></TD></TR></TBODY></TABLE>
+      <TABLE border=3D1 cellPadding=3D6>
+        <TBODY>
+        <TR>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Data Set =
+Characteristics:&nbsp;&nbsp;</B></P></TD>
+          <TD>
+            <P class=3Dnormal>Multivariate, Time-Series</P></TD>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Number of Instances:</B></P></TD>
+          <TD>
+            <P class=3Dnormal>N/A</P></TD>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Area:</B></P></TD>
+          <TD>
+            <P class=3Dnormal>Life</P></TD></TR>
+        <TR>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Attribute Characteristics:</B></P></TD>
+          <TD>
+            <P class=3Dnormal>Categorical, Integer</P></TD>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Number of Attributes:</B></P></TD>
+          <TD>
+            <P class=3Dnormal>20</P></TD>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Date Donated</B></P></TD>
+          <TD>
+            <P class=3Dnormal>N/A</P></TD></TR>
+        <TR>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Associated Tasks:</B></P></TD>
+          <TD>
+            <P class=3Dnormal>N/A</P></TD>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Missing Values?</B></P></TD>
+          <TD>
+            <P class=3Dnormal>N/A</P></TD>
+          <TD bgColor=3D#ddeeff>
+            <P class=3Dnormal><B>Number of Web Hits:</B></P></TD>
+          <TD>
+            <P class=3Dnormal>15466</P></TD></TR><!--=0A=
+	<tr>=0A=
+		=0A=
+		<td bgcolor=3D"#DDEEFF"><p class=3D"normal"><b>Highest Percentage =
+Achieved:&nbsp;&nbsp;</b></p></td>=0A=
+		<td><p class=3D"normal">N/A</p></td>=0A=
+	</tr>=0A=
+	--></TBODY></TABLE><BR>
+      <P class=3Dsmall-heading><B>Source:</B></P>
+      <P class=3Dnormal>Michael Kahn, MD, PhD, Washington University, =
+St. Louis,=20
+      MO</P><BR>
+      <P class=3Dsmall-heading><B>Data Set Information:</B></P>
+      <P class=3Dnormal>Diabetes patient records were obtained from two =
+sources:=20
+      an automatic electronic recording device and paper records. The =
+automatic=20
+      device had an internal clock to timestamp events, whereas the =
+paper=20
+      records only provided "logical time" slots (breakfast, lunch, =
+dinner,=20
+      bedtime). For paper records, fixed times were assigned to =
+breakfast=20
+      (08:00), lunch (12:00), dinner (18:00), and bedtime (22:00). Thus =
+paper=20
+      records have fictitious uniform recording times whereas electronic =
+records=20
+      have more realistic time stamps. <BR><BR>Diabetes files consist of =
+four=20
+      fields per record. Each field is separated by a tab and each =
+record is=20
+      separated by a newline. <BR><BR>File Names and format: <BR>(1) =
+Date in=20
+      MM-DD-YYYY format <BR>(2) Time in XX:YY format <BR>(3) Code =
+<BR>(4) Value=20
+      <BR><BR>The Code field is deciphered as follows: <BR><BR>33 =3D =
+Regular=20
+      insulin dose <BR>34 =3D NPH insulin dose <BR>35 =3D UltraLente =
+insulin dose=20
+      <BR>48 =3D Unspecified blood glucose measurement <BR>57 =3D =
+Unspecified blood=20
+      glucose measurement <BR>58 =3D Pre-breakfast blood glucose =
+measurement=20
+      <BR>59 =3D Post-breakfast blood glucose measurement <BR>60 =3D =
+Pre-lunch blood=20
+      glucose measurement <BR>61 =3D Post-lunch blood glucose =
+measurement <BR>62 =3D=20
+      Pre-supper blood glucose measurement <BR>63 =3D Post-supper blood =
+glucose=20
+      measurement <BR>64 =3D Pre-snack blood glucose measurement <BR>65 =
+=3D=20
+      Hypoglycemic symptoms <BR>66 =3D Typical meal ingestion <BR>67 =3D =
+
+      More-than-usual meal ingestion <BR>68 =3D Less-than-usual meal =
+ingestion=20
+      <BR>69 =3D Typical exercise activity <BR>70 =3D More-than-usual =
+exercise=20
+      activity <BR>71 =3D Less-than-usual exercise activity <BR>72 =3D =
+Unspecified=20
+      special event </P><BR>
+      <P class=3Dsmall-heading><B>Attribute Information:</B></P>
+      <P class=3Dnormal>Diabetes files consist of four fields per =
+record. Each=20
+      field is separated by a tab and each record is separated by a =
+newline.=20
+      <BR><BR>File Names and format: <BR>(1) Date in MM-DD-YYYY format =
+<BR>(2)=20
+      Time in XX:YY format <BR>(3) Code <BR>(4) Value</P><BR>
+      <P class=3Dsmall-heading><B>Relevant Papers:</B></P>
+      <P class=3Dnormal>N/A</P><BR><!-- OLD CODE:=0A=
+=0A=
+<p class=3D"small-heading"><b>Papers That Cite This Data =
+Set<sup>1</sup>:</b></p>=0A=
+<img src=3D"../assets/rexa.jpg" />=0A=
+<p class=3D"normal">Prem Melville and Raymond J. Mooney. <a =0A=
+href=3D"http://rexa.info/paper/a957b37bbe915165b7cb9fdb01d643a3c40079c4">=
+Diverse ensembles for active learning</a>. ICML. 2004.  [<a =0A=
+href=3D"../support/Diabetes#a957b37bbe915165b7cb9fdb01d643a3c40079c4">Vie=
+w Context</a>].<br><br>Zhi-Hua Zhou and Yuan Jiang. <a =0A=
+href=3D"http://rexa.info/paper/e6315f170eea3cc52ade688d0abb40f3372ec35d">=
+NeC4.5: Neural Ensemble Based C4.5</a>. IEEE Trans. Knowl. Data Eng, 16. =
+2004.  [<a =0A=
+href=3D"../support/Diabetes#e6315f170eea3cc52ade688d0abb40f3372ec35d">Vie=
+w Context</a>].<br><br>Jeroen Eggermont and Joost N. Kok and Walter A. =
+Kosters. <a =0A=
+href=3D"http://rexa.info/paper/d64d2705cabed449e8cb2ecc3c3c77c54ee71051">=
+Genetic Programming for data classification: partitioning the search =
+space</a>. SAC. 2004.  [<a =0A=
+href=3D"../support/Diabetes#d64d2705cabed449e8cb2ecc3c3c77c54ee71051">Vie=
+w Context</a>].<br><br>Eibe Frank and Mark Hall. <a =0A=
+href=3D"http://rexa.info/paper/bf8052c51e6338fa2ab5479c08d657a06e4dbd4a">=
+Visualizing Class Probability Estimators</a>. PKDD. 2003.  [<a =0A=
+href=3D"../support/Diabetes#bf8052c51e6338fa2ab5479c08d657a06e4dbd4a">Vie=
+w Context</a>].<br><br>Michael L. Raymer and Travis E. Doom and Leslie =
+A. Kuhn and William F. Punch. <a =0A=
+href=3D"http://rexa.info/paper/076c5b4e7bf69148bcde8c83621ecf1140a7d55c">=
+Knowledge discovery in medical and biological datasets using a hybrid =
+Bayes classifier/evolutionary algorithm</a>. IEEE Transactions on =
+Systems, Man, and Cybernetics, Part B, 33. 2003.  [<a =0A=
+href=3D"../support/Diabetes#076c5b4e7bf69148bcde8c83621ecf1140a7d55c">Vie=
+w Context</a>].<br><br>Zhihua Zhang and James T. Kwok and Dit-Yan Yeung. =
+<a =0A=
+href=3D"http://rexa.info/paper/26619ba87b875d7e1b11e285a01de5485a24ff88">=
+Parametric Distance Metric Learning with Label Information</a>. IJCAI. =
+2003.  [<a =0A=
+href=3D"../support/Diabetes#26619ba87b875d7e1b11e285a01de5485a24ff88">Vie=
+w Context</a>].<br><br>Ilya Blayvas and Ron Kimmel. <a =0A=
+href=3D"http://rexa.info/paper/ded3146242d6b322f31afbf57a8afde22e4ec8e1">=
+Multiresolution Approximation for Classification</a>. CS Dept. Technion. =
+2002.  [<a =0A=
+href=3D"../support/Diabetes#ded3146242d6b322f31afbf57a8afde22e4ec8e1">Vie=
+w Context</a>].<br><br>Krzysztof Krawiec. <a =0A=
+href=3D"http://rexa.info/paper/7ca6f3f2b00e225b5b648c2998c727d0b7d6cde8">=
+Genetic Programming-based Construction of Features for Machine Learning =
+and Knowledge Discovery Tasks</a>. Institute of Computing Science, =
+Poznan University of Technology. 2002.  [<a =0A=
+href=3D"../support/Diabetes#7ca6f3f2b00e225b5b648c2998c727d0b7d6cde8">Vie=
+w Context</a>].<br><br>Marina Skurichina and Ludmila Kuncheva and Robert =
+P W Duin. <a =0A=
+href=3D"http://rexa.info/paper/d8bc3a2d334e33553c2c7e052ce8c2fd9ae5718b">=
+Bagging and Boosting for the Nearest Mean Classifier: Effects of Sample =
+Size on Diversity and Accuracy</a>. Multiple Classifier Systems. 2002.  =
+[<a =0A=
+href=3D"../support/Diabetes#d8bc3a2d334e33553c2c7e052ce8c2fd9ae5718b">Vie=
+w Context</a>].<br><br>Kristin P. Bennett and Ayhan Demiriz and Richard =
+Maclin. <a =0A=
+href=3D"http://rexa.info/paper/ca3e1e0bf335a97cedb76be7b64610181e0f6684">=
+Exploiting unlabeled data in ensemble methods</a>. KDD. 2002.  [<a =0A=
+href=3D"../support/Diabetes#ca3e1e0bf335a97cedb76be7b64610181e0f6684">Vie=
+w Context</a>].<br><br>Peter Sykacek and Stephen J. Roberts. <a =0A=
+href=3D"http://rexa.info/paper/d328ae33fb50756832a1c6cd703f7176c361923f">=
+Adaptive Classification by Variational Kalman Filtering</a>. NIPS. 2002. =
+ [<a =0A=
+href=3D"../support/Diabetes#d328ae33fb50756832a1c6cd703f7176c361923f">Vie=
+w Context</a>].<br><br>Jochen Garcke and Michael Griebel and Michael =
+Thess. <a =0A=
+href=3D"http://rexa.info/paper/4018f616747e1e9c96771daa20bca34c484b966a">=
+Data Mining with Sparse Grids</a>. Computing, 67. 2001.  [<a =0A=
+href=3D"../support/Diabetes#4018f616747e1e9c96771daa20bca34c484b966a">Vie=
+w Context</a>].<br><br>Robert Burbidge and Matthew Trotter and Bernard =
+F. Buxton and Sean B. Holden. <a =0A=
+href=3D"http://rexa.info/paper/c185d513badef2336ca48f64098d4b5df17bf5a4">=
+STAR - Sparsity through Automated Rejection</a>. IWANN (1). 2001.  [<a =0A=
+href=3D"../support/Diabetes#c185d513badef2336ca48f64098d4b5df17bf5a4">Vie=
+w Context</a>].<br><br>Peter L. Hammer and Alexander Kogan and Bruno =
+Simeone and Sandor Szedm'ak. <a =0A=
+href=3D"http://rexa.info/paper/e28683d93b8fd976add91a9a13a588202d32fcea">=
+R u t c o r Research R e p o r t</a>. Rutgers Center for Operations =
+Research Rutgers University. 2001.  [<a =0A=
+href=3D"../support/Diabetes#e28683d93b8fd976add91a9a13a588202d32fcea">Vie=
+w Context</a>].<br><br>Simon Tong and Daphne Koller. <a =0A=
+href=3D"http://rexa.info/paper/989443f4feec00743b3521c1b450717f6013de20">=
+Restricted Bayes Optimal Classifiers</a>. AAAI/IAAI. 2000.  [<a =0A=
+href=3D"../support/Diabetes#989443f4feec00743b3521c1b450717f6013de20">Vie=
+w Context</a>].<br><br>Mark A. Hall. <a =0A=
+href=3D"http://rexa.info/paper/69aaccfb9601e579827a9940738bb255a8cec3b5">=
+Correlation-based Feature Selection for Discrete and Numeric Class =
+Machine Learning</a>. ICML. 2000.  [<a =0A=
+href=3D"../support/Diabetes#69aaccfb9601e579827a9940738bb255a8cec3b5">Vie=
+w Context</a>].<br><br>Chris Drummond and Robert C. Holte. <a =0A=
+href=3D"http://rexa.info/paper/63fb13048c106214f91a999900e7efd5a3dcdef1">=
+Exploiting the Cost (In)sensitivity of Decision Tree Splitting =
+Criteria</a>. ICML. 2000.  [<a =0A=
+href=3D"../support/Diabetes#63fb13048c106214f91a999900e7efd5a3dcdef1">Vie=
+w Context</a>].<br><br>Marina Skurichina and Robert P W Duin. <a =0A=
+href=3D"http://rexa.info/paper/0b088e37f14f4bd30ad6c550b543306c6363eaa7">=
+Boosting in Linear Discriminant Analysis</a>. Multiple Classifier =
+Systems. 2000.  [<a =0A=
+href=3D"../support/Diabetes#0b088e37f14f4bd30ad6c550b543306c6363eaa7">Vie=
+w Context</a>].<br><br>Endre Boros and Peter Hammer and Toshihide =
+Ibaraki and Alexander Kogan and Eddy Mayoraz and Ilya B. Muchnik. <a =0A=
+href=3D"http://rexa.info/paper/7265efd898e4c045ff078fcb63fec9fbde4b1249">=
+An Implementation of Logical Analysis of Data</a>. IEEE Trans. Knowl. =
+Data Eng, 12. 2000.  [<a =0A=
+href=3D"../support/Diabetes#7265efd898e4c045ff078fcb63fec9fbde4b1249">Vie=
+w Context</a>].<br><br>I=F1aki Inza and Pedro Larra=F1aga and Basilio =
+Sierra and Ramon Etxeberria and Jose Antonio Lozano and Jos Manuel =
+Pe=F1a. <a =0A=
+href=3D"http://rexa.info/paper/8ec82e2fc13e61b5b22da67e7ba2ac9681ec5016">=
+Representing the behaviour of supervised classification learning =
+algorithms by Bayesian networks</a>. Pattern Recognition Letters, 20. =
+1999.  [<a =0A=
+href=3D"../support/Diabetes#8ec82e2fc13e61b5b22da67e7ba2ac9681ec5016">Vie=
+w Context</a>].<br><br>Kai Ming Ting and Ian H. Witten. <a =0A=
+href=3D"http://rexa.info/paper/70172e511a3bc27c7927119a3b2a3405fbad99e0">=
+Issues in Stacked Generalization</a>. J. Artif. Intell. Res. (JAIR, 10. =
+1999.  [<a =0A=
+href=3D"../support/Diabetes#70172e511a3bc27c7927119a3b2a3405fbad99e0">Vie=
+w Context</a>].<br><br>Art B. Owen. <a =0A=
+href=3D"http://rexa.info/paper/319529c0338699404ff7d7f9d7e5c900e5294959">=
+Tubular neighbors for regression and classification</a>. Stanford =
+University. 1999.  [<a =0A=
+href=3D"../support/Diabetes#319529c0338699404ff7d7f9d7e5c900e5294959">Vie=
+w Context</a>].<br><br>Stavros J. Perantonis and Vassilis Virvilis. <a =0A=
+href=3D"http://rexa.info/paper/dc4f2babc5ca4534b435280aec32f5816ddb53b0">=
+Input Feature Extraction for Multilayered Perceptrons Using Supervised =
+Principal Component Analysis</a>. Neural Processing Letters, 10. 1999.  =
+[<a =0A=
+href=3D"../support/Diabetes#dc4f2babc5ca4534b435280aec32f5816ddb53b0">Vie=
+w Context</a>].<br><br>Thomas G. Dietterich. <a =0A=
+href=3D"http://rexa.info/paper/5f8eb537fc397ad5e506b2eae4f6676b48990ba6">=
+Approximate Statistical Test For Comparing Supervised Classification =
+Learning Algorithms</a>. Neural Computation, 10. 1998.  [<a =0A=
+href=3D"../support/Diabetes#5f8eb537fc397ad5e506b2eae4f6676b48990ba6">Vie=
+w Context</a>].<br><br>Wojciech Kwedlo and Marek Kretowski. <a =0A=
+href=3D"http://rexa.info/paper/9a0d2c026da6cf5175639b0c375bf7ab56106e1e">=
+Discovery of Decision Rules from Databases: An Evolutionary =
+Approach</a>. PKDD. 1998.  [<a =0A=
+href=3D"../support/Diabetes#9a0d2c026da6cf5175639b0c375bf7ab56106e1e">Vie=
+w Context</a>].<br><br>Huan Liu and Rudy Setiono. <a =0A=
+href=3D"http://rexa.info/paper/96246754b7958de8a635165e8b145c264240cd3d">=
+Feature Transformation and Multivariate Decision Tree Induction</a>. =
+Discovery Science. 1998.  [<a =0A=
+href=3D"../support/Diabetes#96246754b7958de8a635165e8b145c264240cd3d">Vie=
+w Context</a>].<br><br>Kristin P. Bennett and Erin J. Bredensteiner. <a =0A=
+href=3D"http://rexa.info/paper/63ebbe51c9c4dea76320f7b6a40f2a59f10cc7c0">=
+A Parametric Optimization Method for Machine Learning</a>. INFORMS =
+Journal on Computing, 9. 1997.  [<a =0A=
+href=3D"../support/Diabetes#63ebbe51c9c4dea76320f7b6a40f2a59f10cc7c0">Vie=
+w Context</a>].<br><br>. <a =0A=
+href=3D"http://rexa.info/paper/b0009a0081cc5fbfbae758def55cfd5b3256623b">=
+Prototype Selection for Composite Nearest Neighbor Classifiers</a>. =
+Department of Computer Science University of Massachusetts. 1997.  [<a =0A=
+href=3D"../support/Diabetes#b0009a0081cc5fbfbae758def55cfd5b3256623b">Vie=
+w Context</a>].<br><br>Jan C. Bioch and D. Meer and Rob Potharst. <a =0A=
+href=3D"http://rexa.info/paper/08bad2c42799dc0f04d6729f069239fba413cb8f">=
+Bivariate Decision Trees</a>. PKDD. 1997.  [<a =0A=
+href=3D"../support/Diabetes#08bad2c42799dc0f04d6729f069239fba413cb8f">Vie=
+w Context</a>].<br><br>Jennifer A. Blue and Kristin P. Bennett. <a =0A=
+href=3D"http://rexa.info/paper/19e1b6e0932bbe665a2c4a069a0636d8d5cf0c6f">=
+Hybrid Extreme Point Tabu Search</a>. Department of Mathematical =
+Sciences Rensselaer Polytechnic Institute. 1996.  [<a =0A=
+href=3D"../support/Diabetes#19e1b6e0932bbe665a2c4a069a0636d8d5cf0c6f">Vie=
+w Context</a>].<br><br>Peter D. Turney. <a =0A=
+href=3D"http://rexa.info/paper/f6f302674e1188614eaa6f23c782d8d1c0ea2320">=
+Cost-Sensitive Classification: Empirical Evaluation of a Hybrid Genetic =
+Decision Tree Induction Algorithm</a>. CoRR, csAI/9503102. 1995.  [<a =0A=
+href=3D"../support/Diabetes#f6f302674e1188614eaa6f23c782d8d1c0ea2320">Vie=
+w Context</a>].<br><br>Adil M. Bagirov and Alex Rubinov and A. N. =
+Soukhojak and John Yearwood. <a =0A=
+href=3D"http://rexa.info/paper/50b9babac023b426f1531a4265076bea534d121e">=
+Unsupervised and supervised data classification via nonsmooth and global =
+optimization</a>. School of Information Technology and Mathematical =
+Sciences, The University of Ballarat.  [<a =0A=
+href=3D"../support/Diabetes#50b9babac023b426f1531a4265076bea534d121e">Vie=
+w Context</a>].<br><br>Stefan R uping. <a =0A=
+href=3D"http://rexa.info/paper/ba4305796a9e2896e810fd6cf96fbe11c6d5858b">=
+A Simple Method For Estimating Conditional Probabilities For SVMs</a>. =
+CS Department, AI Unit Dortmund University.  [<a =0A=
+href=3D"../support/Diabetes#ba4305796a9e2896e810fd6cf96fbe11c6d5858b">Vie=
+w Context</a>].<br><br>Lawrence O. Hall and Nitesh V. Chawla and Kevin =
+W. Bowyer. <a =0A=
+href=3D"http://rexa.info/paper/4773165a9efff672af50f07beb5d38c9afc92f5f">=
+Combining Decision Trees Learned in Parallel</a>. Department of Computer =
+Science and Engineering, ENB 118 University of South Florida.  [<a =0A=
+href=3D"../support/Diabetes#4773165a9efff672af50f07beb5d38c9afc92f5f">Vie=
+w Context</a>].<br><br>Alexander K. Seewald. <a =0A=
+href=3D"http://rexa.info/paper/e2b2b723df700c90e69a31a4403b740c2d2a7b2f">=
+Dissertation Towards Understanding Stacking Studies of a General =
+Ensemble Learning Scheme ausgefuhrt zum Zwecke der Erlangung des =
+akademischen Grades eines Doktors der technischen =
+Naturwissenschaften</a>.  [<a =0A=
+href=3D"../support/Diabetes#e2b2b723df700c90e69a31a4403b740c2d2a7b2f">Vie=
+w Context</a>].<br><br>Rong-En Fan and P. -H Chen and C. -J Lin. <a =0A=
+href=3D"http://rexa.info/paper/da329267bf8880c2becb15eae121a5b002347349">=
+Working Set Selection Using the Second Order Information for Training =
+SVM</a>. Department of Computer Science and Information Engineering =
+National Taiwan University.  [<a =0A=
+href=3D"../support/Diabetes#da329267bf8880c2becb15eae121a5b002347349">Vie=
+w Context</a>].<br><br>Lena Kallin. <a =0A=
+href=3D"http://rexa.info/paper/1c99ea7ad3864a966f968d02da03b3cb94c64f03">=
+Receiver operating characteristic (ROC) analysis Evaluating =
+discriminance effects among decision support systems</a>. Contents 1 The =
+Theory of Receiver Operating Characteristic Curves 5.  [<a =0A=
+href=3D"../support/Diabetes#1c99ea7ad3864a966f968d02da03b3cb94c64f03">Vie=
+w Context</a>].<br><br>Hussein A. Abbass. <a =0A=
+href=3D"http://rexa.info/paper/05c326dc479677ca55b6b6e260c8622539762b62">=
+Pareto Neuro-Evolution: Constructing Ensemble of Neural Networks Using =
+Multi-objective Optimization</a>. Artificial Life and Adaptive Robotics =
+(A.L.A.R.) Lab, School of Information Technology and Electrical =
+Engineering, Australian Defence Force Academy.  [<a =0A=
+href=3D"../support/Diabetes#05c326dc479677ca55b6b6e260c8622539762b62">Vie=
+w Context</a>].<br><br>YongSeog Kim and W. Nick Street and Filippo =
+Menczer. <a =0A=
+href=3D"http://rexa.info/paper/c4bbcd894d98036f58a23f51ef83d1860d43021c">=
+Optimal Ensemble Construction via Meta-Evolutionary Ensembles</a>. =
+Business Information Systems, Utah State University.  [<a =0A=
+href=3D"../support/Diabetes#c4bbcd894d98036f58a23f51ef83d1860d43021c">Vie=
+w Context</a>].<br><br>Ilya Blayvas and Ron Kimmel. <a =0A=
+href=3D"http://rexa.info/paper/5a08d3d508c193c4964f1f3f66bdcb78b98a905b">=
+INVITED PAPER Special Issue on Multiresolution Analysis Machine Learning =
+via Multiresolution Approximation</a>.  [<a =0A=
+href=3D"../support/Diabetes#5a08d3d508c193c4964f1f3f66bdcb78b98a905b">Vie=
+w Context</a>].<br><br>Wl odzisl/aw Duch and Rudy Setiono and Jacek M. =
+Zurada. <a =0A=
+href=3D"http://rexa.info/paper/8afa6796645ce4b0642db26c822cf6bfa8cc4d0d">=
+Computational intelligence methods for rule-based data =
+understanding</a>.  [<a =0A=
+href=3D"../support/Diabetes#8afa6796645ce4b0642db26c822cf6bfa8cc4d0d">Vie=
+w Context</a>].<br><br>Charles Campbell and Nello Cristianini. <a =0A=
+href=3D"http://rexa.info/paper/b6e169d69cd67763b95698e8961696fec9ca93bf">=
+Simple Learning Algorithms for Training Support Vector Machines</a>. =
+Dept. of Engineering Mathematics.  [<a =0A=
+href=3D"../support/Diabetes#b6e169d69cd67763b95698e8961696fec9ca93bf">Vie=
+w Context</a>].<br><br>Adil M. Bagirov and John Yearwood. <a =0A=
+href=3D"http://rexa.info/paper/4e69e64b6902aa2a91b5cda5a69eb6b030ac12c4">=
+A new nonsmooth optimization algorithm for clustering</a>. Centre for =
+Informatics and Applied Optimization, School of Information Technology =
+and Mathematical Sciences, University of Ballarat.  [<a =0A=
+href=3D"../support/Diabetes#4e69e64b6902aa2a91b5cda5a69eb6b030ac12c4">Vie=
+w Context</a>].<br><br>Andrew Watkins and Jon Timmis and Lois C. =
+Boggess. <a =0A=
+href=3D"http://rexa.info/paper/b4b7ea88c807c5c8746bf3067f13b1d07899bcc9">=
+Artificial Immune Recognition System (AIRS): An ImmuneInspired =
+Supervised Learning Algorithm</a>. (abw5,jt6@kent.ac.uk) Computing =
+Laboratory, University of Kent.  [<a =0A=
+href=3D"../support/Diabetes#b4b7ea88c807c5c8746bf3067f13b1d07899bcc9">Vie=
+w Context</a>].<br><br>Ahmed Hussain Khan and Intensive Care. <a =0A=
+href=3D"http://rexa.info/paper/ef65a20ee05551cc411c8acd0c5af4796dc1a39e">=
+Multiplier-Free Feedforward Networks</a>. 174.  [<a =0A=
+href=3D"../support/Diabetes#ef65a20ee05551cc411c8acd0c5af4796dc1a39e">Vie=
+w Context</a>].<br><br>Matthias Scherf and W. Brauer. <a =0A=
+href=3D"http://rexa.info/paper/19d5e6db33eb1a6c31be626538ea656f79e901b1">=
+Feature Selection by Means of a Feature Weighting Approach</a>. GSF - =
+National Research Center for Environment and Health.  [<a =0A=
+href=3D"../support/Diabetes#19d5e6db33eb1a6c31be626538ea656f79e901b1">Vie=
+w Context</a>].<br><br>Ilya Blayvas and Ron Kimmel. <a =0A=
+href=3D"http://rexa.info/paper/87afa910f706df9e28bfa697d6d2eea7c0cb53ef">=
+Efficient Classification via Multiresolution Training Set =
+Approximation</a>. CS Dept. Technion.  [<a =0A=
+href=3D"../support/Diabetes#87afa910f706df9e28bfa697d6d2eea7c0cb53ef">Vie=
+w Context</a>].<br><br>Krzysztof Grabczewski and Wl/odzisl/aw Duch. <a =0A=
+href=3D"http://rexa.info/paper/2b9850dda87431cc9117f2a0a63d79863723e4b0">=
+THE SEPARABILITY OF SPLIT VALUE CRITERION</a>. Department of Computer =
+Methods, Nicolaus Copernicus University.  [<a =0A=
+href=3D"../support/Diabetes#2b9850dda87431cc9117f2a0a63d79863723e4b0">Vie=
+w Context</a>].<br><br>Liping Wei and Russ B. Altman. <a =0A=
+href=3D"http://rexa.info/paper/c5ac7c07f095dd7068c3ab10d4e7615b6d1564d5">=
+An Automated System for Generating Comparative Disease Profiles and =
+Making Diagnoses</a>. Section on Medical Informatics Stanford University =
+School of Medicine, MSOB X215.  [<a =0A=
+href=3D"../support/Diabetes#c5ac7c07f095dd7068c3ab10d4e7615b6d1564d5">Vie=
+w Context</a>].<br><br>Fran ois Poulet. <a =0A=
+href=3D"http://rexa.info/paper/b569ce235d64605aedc2e0bddb7006bd30fcad9f">=
+Cooperation between automatic algorithms, interactive algorithms and =
+visualization tools for Visual Data Mining</a>. ESIEA Recherche.  [<a =0A=
+href=3D"../support/Diabetes#b569ce235d64605aedc2e0bddb7006bd30fcad9f">Vie=
+w Context</a>].<br><br>Prem Melville and Raymond J. Mooney. <a =0A=
+href=3D"http://rexa.info/paper/de7b203eb1605a71f18d23d9368046bfeb381b9f">=
+Proceedings of the 21st International Conference on Machine =
+Learning</a>. Department of Computer Sciences.  [<a =0A=
+href=3D"../support/Diabetes#de7b203eb1605a71f18d23d9368046bfeb381b9f">Vie=
+w Context</a>].<br><br>Michael Lindenbaum and Shaul Markovitch and =
+Dmitry Rusakov. <a =0A=
+href=3D"http://rexa.info/paper/9a0080df56f0a8fb004723a7dece29109bc316ce">=
+Selective Sampling Using Random Field Modelling</a>.  [<a =0A=
+href=3D"../support/Diabetes#9a0080df56f0a8fb004723a7dece29109bc316ce">Vie=
+w Context</a>].<br><br>Rudy Setiono and Huan Liu. <a =0A=
+href=3D"http://rexa.info/paper/9a75a9a8ce786d6a05ad51afa124cd4f70bfbb36">=
+Neural-Network Feature Selector</a>. Department of Information Systems =
+and Computer Science National University of Singapore.  [<a =0A=
+href=3D"../support/Diabetes#9a75a9a8ce786d6a05ad51afa124cd4f70bfbb36">Vie=
+w Context</a>].<br><br></p>=0A=
+=0A=
+-->
+      <P class=3Dsmall-heading><B>Papers That Cite This Data=20
+      Set<SUP>1</SUP>:</B></P><IMG=20
+      src=3D"http://archive.ics.uci.edu/ml/assets/rexa.jpg">
+      <P class=3Dnormal>Prem Melville and Raymond J. Mooney. <A=20
+      =
+href=3D"http://rexa.info/paper/a957b37bbe915165b7cb9fdb01d643a3c40079c4">=
+Diverse=20
+      ensembles for active learning</A>. ICML. 2004. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#a957b37bbe915165b7=
+cb9fdb01d643a3c40079c4">View=20
+      Context</A>].<BR><BR>Zhi-Hua Zhou and Yuan Jiang. <A=20
+      =
+href=3D"http://rexa.info/paper/e6315f170eea3cc52ade688d0abb40f3372ec35d">=
+NeC4.5:=20
+      Neural Ensemble Based C4.5</A>. IEEE Trans. Knowl. Data Eng, 16. =
+2004. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#e6315f170eea3cc52a=
+de688d0abb40f3372ec35d">View=20
+      Context</A>].<BR><BR>Jeroen Eggermont and Joost N. Kok and Walter =
+A.=20
+      Kosters. <A=20
+      =
+href=3D"http://rexa.info/paper/d64d2705cabed449e8cb2ecc3c3c77c54ee71051">=
+Genetic=20
+      Programming for data classification: partitioning the search =
+space</A>.=20
+      SAC. 2004. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#d64d2705cabed449e8=
+cb2ecc3c3c77c54ee71051">View=20
+      Context</A>].<BR><BR>Eibe Frank and Mark Hall. <A=20
+      =
+href=3D"http://rexa.info/paper/bf8052c51e6338fa2ab5479c08d657a06e4dbd4a">=
+Visualizing=20
+      Class Probability Estimators</A>. PKDD. 2003. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#bf8052c51e6338fa2a=
+b5479c08d657a06e4dbd4a">View=20
+      Context</A>].<BR><BR>Michael L. Raymer and Travis E. Doom and =
+Leslie A.=20
+      Kuhn and William F. Punch. <A=20
+      =
+href=3D"http://rexa.info/paper/076c5b4e7bf69148bcde8c83621ecf1140a7d55c">=
+Knowledge=20
+      discovery in medical and biological datasets using a hybrid Bayes=20
+      classifier/evolutionary algorithm</A>. IEEE Transactions on =
+Systems, Man,=20
+      and Cybernetics, Part B, 33. 2003. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#076c5b4e7bf69148bc=
+de8c83621ecf1140a7d55c">View=20
+      Context</A>].<BR><BR>Zhihua Zhang and James T. Kwok and Dit-Yan =
+Yeung. <A=20
+      =
+href=3D"http://rexa.info/paper/26619ba87b875d7e1b11e285a01de5485a24ff88">=
+Parametric=20
+      Distance Metric Learning with Label Information</A>. IJCAI. 2003. =
+[<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#26619ba87b875d7e1b=
+11e285a01de5485a24ff88">View=20
+      Context</A>].<BR><BR>Ilya Blayvas and Ron Kimmel. <A=20
+      =
+href=3D"http://rexa.info/paper/ded3146242d6b322f31afbf57a8afde22e4ec8e1">=
+Multiresolution=20
+      Approximation for Classification</A>. CS Dept. Technion. 2002. [<A =
+
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#ded3146242d6b322f3=
+1afbf57a8afde22e4ec8e1">View=20
+      Context</A>].<BR><BR>Krzysztof Krawiec. <A=20
+      =
+href=3D"http://rexa.info/paper/7ca6f3f2b00e225b5b648c2998c727d0b7d6cde8">=
+Genetic=20
+      Programming-based Construction of Features for Machine Learning =
+and=20
+      Knowledge Discovery Tasks</A>. Institute of Computing Science, =
+Poznan=20
+      University of Technology. 2002. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#7ca6f3f2b00e225b5b=
+648c2998c727d0b7d6cde8">View=20
+      Context</A>].<BR><BR>Marina Skurichina and Ludmila Kuncheva and =
+Robert P W=20
+      Duin. <A=20
+      =
+href=3D"http://rexa.info/paper/d8bc3a2d334e33553c2c7e052ce8c2fd9ae5718b">=
+Bagging=20
+      and Boosting for the Nearest Mean Classifier: Effects of Sample =
+Size on=20
+      Diversity and Accuracy</A>. Multiple Classifier Systems. 2002. [<A =
+
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#d8bc3a2d334e33553c=
+2c7e052ce8c2fd9ae5718b">View=20
+      Context</A>].<BR><BR>Kristin P. Bennett and Ayhan Demiriz and =
+Richard=20
+      Maclin. <A=20
+      =
+href=3D"http://rexa.info/paper/ca3e1e0bf335a97cedb76be7b64610181e0f6684">=
+Exploiting=20
+      unlabeled data in ensemble methods</A>. KDD. 2002. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#ca3e1e0bf335a97ced=
+b76be7b64610181e0f6684">View=20
+      Context</A>].<BR><BR>Peter Sykacek and Stephen J. Roberts. <A=20
+      =
+href=3D"http://rexa.info/paper/d328ae33fb50756832a1c6cd703f7176c361923f">=
+Adaptive=20
+      Classification by Variational Kalman Filtering</A>. NIPS. 2002. =
+[<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#d328ae33fb50756832=
+a1c6cd703f7176c361923f">View=20
+      Context</A>].<BR><BR>Jochen Garcke and Michael Griebel and Michael =
+Thess.=20
+      <A=20
+      =
+href=3D"http://rexa.info/paper/4018f616747e1e9c96771daa20bca34c484b966a">=
+Data=20
+      Mining with Sparse Grids</A>. Computing, 67. 2001. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#4018f616747e1e9c96=
+771daa20bca34c484b966a">View=20
+      Context</A>].<BR><BR>Robert Burbidge and Matthew Trotter and =
+Bernard F.=20
+      Buxton and Sean B. Holden. <A=20
+      =
+href=3D"http://rexa.info/paper/c185d513badef2336ca48f64098d4b5df17bf5a4">=
+STAR=20
+      - Sparsity through Automated Rejection</A>. IWANN (1). 2001. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#c185d513badef2336c=
+a48f64098d4b5df17bf5a4">View=20
+      Context</A>].<BR><BR>Peter L. Hammer and Alexander Kogan and Bruno =
+Simeone=20
+      and Sandor Szedm'ak. <A=20
+      =
+href=3D"http://rexa.info/paper/e28683d93b8fd976add91a9a13a588202d32fcea">=
+R u=20
+      t c o r Research R e p o r t</A>. Rutgers Center for Operations =
+Research=20
+      Rutgers University. 2001. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#e28683d93b8fd976ad=
+d91a9a13a588202d32fcea">View=20
+      Context</A>].<BR><BR>Simon Tong and Daphne Koller. <A=20
+      =
+href=3D"http://rexa.info/paper/989443f4feec00743b3521c1b450717f6013de20">=
+Restricted=20
+      Bayes Optimal Classifiers</A>. AAAI/IAAI. 2000. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#989443f4feec00743b=
+3521c1b450717f6013de20">View=20
+      Context</A>].<BR><BR>Mark A. Hall. <A=20
+      =
+href=3D"http://rexa.info/paper/69aaccfb9601e579827a9940738bb255a8cec3b5">=
+Correlation-based=20
+      Feature Selection for Discrete and Numeric Class Machine =
+Learning</A>.=20
+      ICML. 2000. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#69aaccfb9601e57982=
+7a9940738bb255a8cec3b5">View=20
+      Context</A>].<BR><BR>Chris Drummond and Robert C. Holte. <A=20
+      =
+href=3D"http://rexa.info/paper/63fb13048c106214f91a999900e7efd5a3dcdef1">=
+Exploiting=20
+      the Cost (In)sensitivity of Decision Tree Splitting Criteria</A>. =
+ICML.=20
+      2000. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#63fb13048c106214f9=
+1a999900e7efd5a3dcdef1">View=20
+      Context</A>].<BR><BR>Marina Skurichina and Robert P W Duin. <A=20
+      =
+href=3D"http://rexa.info/paper/0b088e37f14f4bd30ad6c550b543306c6363eaa7">=
+Boosting=20
+      in Linear Discriminant Analysis</A>. Multiple Classifier Systems. =
+2000.=20
+      [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#0b088e37f14f4bd30a=
+d6c550b543306c6363eaa7">View=20
+      Context</A>].<BR><BR>Endre Boros and Peter Hammer and Toshihide =
+Ibaraki=20
+      and Alexander Kogan and Eddy Mayoraz and Ilya B. Muchnik. <A=20
+      =
+href=3D"http://rexa.info/paper/7265efd898e4c045ff078fcb63fec9fbde4b1249">=
+An=20
+      Implementation of Logical Analysis of Data</A>. IEEE Trans. Knowl. =
+Data=20
+      Eng, 12. 2000. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#7265efd898e4c045ff=
+078fcb63fec9fbde4b1249">View=20
+      Context</A>].<BR><BR>I=F1aki Inza and Pedro Larra=F1aga and =
+Basilio Sierra and=20
+      Ramon Etxeberria and Jose Antonio Lozano and Jos Manuel Pe=F1a. <A =
+
+      =
+href=3D"http://rexa.info/paper/8ec82e2fc13e61b5b22da67e7ba2ac9681ec5016">=
+Representing=20
+      the behaviour of supervised classification learning algorithms by =
+Bayesian=20
+      networks</A>. Pattern Recognition Letters, 20. 1999. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#8ec82e2fc13e61b5b2=
+2da67e7ba2ac9681ec5016">View=20
+      Context</A>].<BR><BR>Kai Ming Ting and Ian H. Witten. <A=20
+      =
+href=3D"http://rexa.info/paper/70172e511a3bc27c7927119a3b2a3405fbad99e0">=
+Issues=20
+      in Stacked Generalization</A>. J. Artif. Intell. Res. (JAIR, 10. =
+1999. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#70172e511a3bc27c79=
+27119a3b2a3405fbad99e0">View=20
+      Context</A>].<BR><BR>Art B. Owen. <A=20
+      =
+href=3D"http://rexa.info/paper/319529c0338699404ff7d7f9d7e5c900e5294959">=
+Tubular=20
+      neighbors for regression and classification</A>. Stanford =
+University.=20
+      1999. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#319529c0338699404f=
+f7d7f9d7e5c900e5294959">View=20
+      Context</A>].<BR><BR>Stavros J. Perantonis and Vassilis Virvilis. =
+<A=20
+      =
+href=3D"http://rexa.info/paper/dc4f2babc5ca4534b435280aec32f5816ddb53b0">=
+Input=20
+      Feature Extraction for Multilayered Perceptrons Using Supervised =
+Principal=20
+      Component Analysis</A>. Neural Processing Letters, 10. 1999. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#dc4f2babc5ca4534b4=
+35280aec32f5816ddb53b0">View=20
+      Context</A>].<BR><BR>Thomas G. Dietterich. <A=20
+      =
+href=3D"http://rexa.info/paper/5f8eb537fc397ad5e506b2eae4f6676b48990ba6">=
+Approximate=20
+      Statistical Test For Comparing Supervised Classification Learning=20
+      Algorithms</A>. Neural Computation, 10. 1998. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#5f8eb537fc397ad5e5=
+06b2eae4f6676b48990ba6">View=20
+      Context</A>].<BR><BR>Wojciech Kwedlo and Marek Kretowski. <A=20
+      =
+href=3D"http://rexa.info/paper/9a0d2c026da6cf5175639b0c375bf7ab56106e1e">=
+Discovery=20
+      of Decision Rules from Databases: An Evolutionary Approach</A>. =
+PKDD.=20
+      1998. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#9a0d2c026da6cf5175=
+639b0c375bf7ab56106e1e">View=20
+      Context</A>].<BR><BR>Huan Liu and Rudy Setiono. <A=20
+      =
+href=3D"http://rexa.info/paper/96246754b7958de8a635165e8b145c264240cd3d">=
+Feature=20
+      Transformation and Multivariate Decision Tree Induction</A>. =
+Discovery=20
+      Science. 1998. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#96246754b7958de8a6=
+35165e8b145c264240cd3d">View=20
+      Context</A>].<BR><BR>Kristin P. Bennett and Erin J. Bredensteiner. =
+<A=20
+      =
+href=3D"http://rexa.info/paper/63ebbe51c9c4dea76320f7b6a40f2a59f10cc7c0">=
+A=20
+      Parametric Optimization Method for Machine Learning</A>. INFORMS =
+Journal=20
+      on Computing, 9. 1997. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#63ebbe51c9c4dea763=
+20f7b6a40f2a59f10cc7c0">View=20
+      Context</A>].<BR><BR>. <A=20
+      =
+href=3D"http://rexa.info/paper/b0009a0081cc5fbfbae758def55cfd5b3256623b">=
+Prototype=20
+      Selection for Composite Nearest Neighbor Classifiers</A>. =
+Department of=20
+      Computer Science University of Massachusetts. 1997. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#b0009a0081cc5fbfba=
+e758def55cfd5b3256623b">View=20
+      Context</A>].<BR><BR>Jan C. Bioch and D. Meer and Rob Potharst. <A =
+
+      =
+href=3D"http://rexa.info/paper/08bad2c42799dc0f04d6729f069239fba413cb8f">=
+Bivariate=20
+      Decision Trees</A>. PKDD. 1997. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#08bad2c42799dc0f04=
+d6729f069239fba413cb8f">View=20
+      Context</A>].<BR><BR>Jennifer A. Blue and Kristin P. Bennett. <A=20
+      =
+href=3D"http://rexa.info/paper/19e1b6e0932bbe665a2c4a069a0636d8d5cf0c6f">=
+Hybrid=20
+      Extreme Point Tabu Search</A>. Department of Mathematical Sciences =
+
+      Rensselaer Polytechnic Institute. 1996. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#19e1b6e0932bbe665a=
+2c4a069a0636d8d5cf0c6f">View=20
+      Context</A>].<BR><BR>Peter D. Turney. <A=20
+      =
+href=3D"http://rexa.info/paper/f6f302674e1188614eaa6f23c782d8d1c0ea2320">=
+Cost-Sensitive=20
+      Classification: Empirical Evaluation of a Hybrid Genetic Decision =
+Tree=20
+      Induction Algorithm</A>. CoRR, csAI/9503102. 1995. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#f6f302674e1188614e=
+aa6f23c782d8d1c0ea2320">View=20
+      Context</A>].<BR><BR>Adil M. Bagirov and Alex Rubinov and A. N. =
+Soukhojak=20
+      and John Yearwood. <A=20
+      =
+href=3D"http://rexa.info/paper/50b9babac023b426f1531a4265076bea534d121e">=
+Unsupervised=20
+      and supervised data classification via nonsmooth and global=20
+      optimization</A>. School of Information Technology and =
+Mathematical=20
+      Sciences, The University of Ballarat. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#50b9babac023b426f1=
+531a4265076bea534d121e">View=20
+      Context</A>].<BR><BR>Stefan R uping. <A=20
+      =
+href=3D"http://rexa.info/paper/ba4305796a9e2896e810fd6cf96fbe11c6d5858b">=
+A=20
+      Simple Method For Estimating Conditional Probabilities For =
+SVMs</A>. CS=20
+      Department, AI Unit Dortmund University. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#ba4305796a9e2896e8=
+10fd6cf96fbe11c6d5858b">View=20
+      Context</A>].<BR><BR>Lawrence O. Hall and Nitesh V. Chawla and =
+Kevin W.=20
+      Bowyer. <A=20
+      =
+href=3D"http://rexa.info/paper/4773165a9efff672af50f07beb5d38c9afc92f5f">=
+Combining=20
+      Decision Trees Learned in Parallel</A>. Department of Computer =
+Science and=20
+      Engineering, ENB 118 University of South Florida. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#4773165a9efff672af=
+50f07beb5d38c9afc92f5f">View=20
+      Context</A>].<BR><BR>Alexander K. Seewald. <A=20
+      =
+href=3D"http://rexa.info/paper/e2b2b723df700c90e69a31a4403b740c2d2a7b2f">=
+Dissertation=20
+      Towards Understanding Stacking Studies of a General Ensemble =
+Learning=20
+      Scheme ausgefuhrt zum Zwecke der Erlangung des akademischen Grades =
+eines=20
+      Doktors der technischen Naturwissenschaften</A>. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#e2b2b723df700c90e6=
+9a31a4403b740c2d2a7b2f">View=20
+      Context</A>].<BR><BR>Rong-En Fan and P. -H Chen and C. -J Lin. <A=20
+      =
+href=3D"http://rexa.info/paper/da329267bf8880c2becb15eae121a5b002347349">=
+Working=20
+      Set Selection Using the Second Order Information for Training =
+SVM</A>.=20
+      Department of Computer Science and Information Engineering =
+National Taiwan=20
+      University. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#da329267bf8880c2be=
+cb15eae121a5b002347349">View=20
+      Context</A>].<BR><BR>Lena Kallin. <A=20
+      =
+href=3D"http://rexa.info/paper/1c99ea7ad3864a966f968d02da03b3cb94c64f03">=
+Receiver=20
+      operating characteristic (ROC) analysis Evaluating discriminance =
+effects=20
+      among decision support systems</A>. Contents 1 The Theory of =
+Receiver=20
+      Operating Characteristic Curves 5. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#1c99ea7ad3864a966f=
+968d02da03b3cb94c64f03">View=20
+      Context</A>].<BR><BR>Hussein A. Abbass. <A=20
+      =
+href=3D"http://rexa.info/paper/05c326dc479677ca55b6b6e260c8622539762b62">=
+Pareto=20
+      Neuro-Evolution: Constructing Ensemble of Neural Networks Using=20
+      Multi-objective Optimization</A>. Artificial Life and Adaptive =
+Robotics=20
+      (A.L.A.R.) Lab, School of Information Technology and Electrical=20
+      Engineering, Australian Defence Force Academy. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#05c326dc479677ca55=
+b6b6e260c8622539762b62">View=20
+      Context</A>].<BR><BR>YongSeog Kim and W. Nick Street and Filippo =
+Menczer.=20
+      <A=20
+      =
+href=3D"http://rexa.info/paper/c4bbcd894d98036f58a23f51ef83d1860d43021c">=
+Optimal=20
+      Ensemble Construction via Meta-Evolutionary Ensembles</A>. =
+Business=20
+      Information Systems, Utah State University. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#c4bbcd894d98036f58=
+a23f51ef83d1860d43021c">View=20
+      Context</A>].<BR><BR>Ilya Blayvas and Ron Kimmel. <A=20
+      =
+href=3D"http://rexa.info/paper/5a08d3d508c193c4964f1f3f66bdcb78b98a905b">=
+INVITED=20
+      PAPER Special Issue on Multiresolution Analysis Machine Learning =
+via=20
+      Multiresolution Approximation</A>. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#5a08d3d508c193c496=
+4f1f3f66bdcb78b98a905b">View=20
+      Context</A>].<BR><BR>Wl odzisl/aw Duch and Rudy Setiono and Jacek =
+M.=20
+      Zurada. <A=20
+      =
+href=3D"http://rexa.info/paper/8afa6796645ce4b0642db26c822cf6bfa8cc4d0d">=
+Computational=20
+      intelligence methods for rule-based data understanding</A>. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#8afa6796645ce4b064=
+2db26c822cf6bfa8cc4d0d">View=20
+      Context</A>].<BR><BR>Charles Campbell and Nello Cristianini. <A=20
+      =
+href=3D"http://rexa.info/paper/b6e169d69cd67763b95698e8961696fec9ca93bf">=
+Simple=20
+      Learning Algorithms for Training Support Vector Machines</A>. =
+Dept. of=20
+      Engineering Mathematics. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#b6e169d69cd67763b9=
+5698e8961696fec9ca93bf">View=20
+      Context</A>].<BR><BR>Adil M. Bagirov and John Yearwood. <A=20
+      =
+href=3D"http://rexa.info/paper/4e69e64b6902aa2a91b5cda5a69eb6b030ac12c4">=
+A=20
+      new nonsmooth optimization algorithm for clustering</A>. Centre =
+for=20
+      Informatics and Applied Optimization, School of Information =
+Technology and=20
+      Mathematical Sciences, University of Ballarat. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#4e69e64b6902aa2a91=
+b5cda5a69eb6b030ac12c4">View=20
+      Context</A>].<BR><BR>Andrew Watkins and Jon Timmis and Lois C. =
+Boggess. <A=20
+      =
+href=3D"http://rexa.info/paper/b4b7ea88c807c5c8746bf3067f13b1d07899bcc9">=
+Artificial=20
+      Immune Recognition System (AIRS): An ImmuneInspired Supervised =
+Learning=20
+      Algorithm</A>. (abw5,jt6@kent.ac.uk) Computing Laboratory, =
+University of=20
+      Kent. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#b4b7ea88c807c5c874=
+6bf3067f13b1d07899bcc9">View=20
+      Context</A>].<BR><BR>Ahmed Hussain Khan and Intensive Care. <A=20
+      =
+href=3D"http://rexa.info/paper/ef65a20ee05551cc411c8acd0c5af4796dc1a39e">=
+Multiplier-Free=20
+      Feedforward Networks</A>. 174. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#ef65a20ee05551cc41=
+1c8acd0c5af4796dc1a39e">View=20
+      Context</A>].<BR><BR>Matthias Scherf and W. Brauer. <A=20
+      =
+href=3D"http://rexa.info/paper/19d5e6db33eb1a6c31be626538ea656f79e901b1">=
+Feature=20
+      Selection by Means of a Feature Weighting Approach</A>. GSF - =
+National=20
+      Research Center for Environment and Health. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#19d5e6db33eb1a6c31=
+be626538ea656f79e901b1">View=20
+      Context</A>].<BR><BR>Ilya Blayvas and Ron Kimmel. <A=20
+      =
+href=3D"http://rexa.info/paper/87afa910f706df9e28bfa697d6d2eea7c0cb53ef">=
+Efficient=20
+      Classification via Multiresolution Training Set Approximation</A>. =
+CS=20
+      Dept. Technion. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#87afa910f706df9e28=
+bfa697d6d2eea7c0cb53ef">View=20
+      Context</A>].<BR><BR>Krzysztof Grabczewski and Wl/odzisl/aw Duch. =
+<A=20
+      =
+href=3D"http://rexa.info/paper/2b9850dda87431cc9117f2a0a63d79863723e4b0">=
+THE=20
+      SEPARABILITY OF SPLIT VALUE CRITERION</A>. Department of Computer =
+Methods,=20
+      Nicolaus Copernicus University. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#2b9850dda87431cc91=
+17f2a0a63d79863723e4b0">View=20
+      Context</A>].<BR><BR>Liping Wei and Russ B. Altman. <A=20
+      =
+href=3D"http://rexa.info/paper/c5ac7c07f095dd7068c3ab10d4e7615b6d1564d5">=
+An=20
+      Automated System for Generating Comparative Disease Profiles and =
+Making=20
+      Diagnoses</A>. Section on Medical Informatics Stanford University =
+School=20
+      of Medicine, MSOB X215. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#c5ac7c07f095dd7068=
+c3ab10d4e7615b6d1564d5">View=20
+      Context</A>].<BR><BR>Fran ois Poulet. <A=20
+      =
+href=3D"http://rexa.info/paper/b569ce235d64605aedc2e0bddb7006bd30fcad9f">=
+Cooperation=20
+      between automatic algorithms, interactive algorithms and =
+visualization=20
+      tools for Visual Data Mining</A>. ESIEA Recherche. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#b569ce235d64605aed=
+c2e0bddb7006bd30fcad9f">View=20
+      Context</A>].<BR><BR>Prem Melville and Raymond J. Mooney. <A=20
+      =
+href=3D"http://rexa.info/paper/de7b203eb1605a71f18d23d9368046bfeb381b9f">=
+Proceedings=20
+      of the 21st International Conference on Machine Learning</A>. =
+Department=20
+      of Computer Sciences. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#de7b203eb1605a71f1=
+8d23d9368046bfeb381b9f">View=20
+      Context</A>].<BR><BR>Michael Lindenbaum and Shaul Markovitch and =
+Dmitry=20
+      Rusakov. <A=20
+      =
+href=3D"http://rexa.info/paper/9a0080df56f0a8fb004723a7dece29109bc316ce">=
+Selective=20
+      Sampling Using Random Field Modelling</A>. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#9a0080df56f0a8fb00=
+4723a7dece29109bc316ce">View=20
+      Context</A>].<BR><BR>Rudy Setiono and Huan Liu. <A=20
+      =
+href=3D"http://rexa.info/paper/9a75a9a8ce786d6a05ad51afa124cd4f70bfbb36">=
+Neural-Network=20
+      Feature Selector</A>. Department of Information Systems and =
+Computer=20
+      Science National University of Singapore. [<A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/support/Diabetes#9a75a9a8ce786d6a05=
+ad51afa124cd4f70bfbb36">View=20
+      Context</A>].<BR><BR></P><BR>
+      <P class=3Dsmall-heading><B>Citation Request:</B></P>
+      <P class=3Dnormal>Please refer to the Machine Learning =
+Repository's <A=20
+      =
+href=3D"http://archive.ics.uci.edu/ml/citation_policy.html">citation=20
+      policy</A></P></TD></TR></TBODY></TABLE>
+<HR>
+<!-- OLD CODE:=0A=
+<p class=3D"normal"><font size=3D1>[1] Papers were automatically =
+harvested and associated with this data set, in collaboration with <a =
+href=3D"http://rexa.info"><font size=3D1>Rexa.info</font></a></font></p>=0A=
+-->
+<P class=3Dnormal><FONT size=3D1>[1] Papers were automatically harvested =
+and=20
+associated with this data set, in collaboration with <A=20
+href=3D"http://rexa.info/"><FONT =
+size=3D1>Rexa.info</FONT></A></FONT></P>
+<TABLE cellPadding=3D5 align=3Dcenter>
+  <TBODY>
+  <TR vAlign=3Dcenter>
+    <TD>
+      <P class=3Dnormal>Supported By:</P></TD>
+    <TD><IMG src=3D"http://archive.ics.uci.edu/ml/assets/nsfe.gif" =
+height=3D60>=20
+</TD>
+    <TD>
+      <P class=3Dnormal>&nbsp;In Collaboration With:</P></TD>
+    <TD><IMG=20
+  =
+src=3D"http://archive.ics.uci.edu/ml/assets/rexaSmall.jpg"></TD></TR></TB=
+ODY></TABLE>
+<CENTER><SPAN class=3Dnormal><A=20
+href=3D"http://archive.ics.uci.edu/ml/about.html">About</A>&nbsp;&nbsp;||=
+&nbsp; <A=20
+href=3D"http://archive.ics.uci.edu/ml/citation_policy.html">Citation=20
+Policy</A>&nbsp;&nbsp;||&nbsp; <A=20
+href=3D"http://archive.ics.uci.edu/ml/donation_policy.html">Donation=20
+Policy</A>&nbsp;&nbsp;||&nbsp; <A=20
+href=3D"http://archive.ics.uci.edu/ml/contact.html">Contact</A>&nbsp;&nbs=
+p;||&nbsp;=20
+<A href=3D"http://cml.ics.uci.edu/">CML</A> =
+</SPAN></CENTER></BODY></HTML>
+
+------=_NextPart_000_0000_01CAC2B3.CF426550
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://archive.ics.uci.edu/ml/assets/logo.gif
+
+R0lGODlhgAF8APcAAP////f3+Pb2//H19e3v/e/v9+/v6e7u7+Xl9Obm7uTk5uHg797e5t3d39bW
+8dfV5dbW39HV3tTU2M7O38zMzP/MAMbG1cfG3MTEzPLFFb2+1fHCB76+xL29zuW+KLW2zbW1xq61
+xte2OeC1EK2tx62tvsyvSKuqr9CsFqWlvKakw7+mVM6nGKWjtZqdtZubvpqcra+cYLydH5WWtZmX
+prmXI5SUraSTaKqTJYyMtYyMrYyMpauNKpaJcYqInYSFpIODrISEnGmHpYp/dJmAM5KCMXt9nHp7
+pHR9lImAMnt7lYJ5N3R0nHt0eHJylGt1i4hzPHlzPGtri29qemZmmWprQWRkhWJji1hig2FeeFtb
+jVxhR1pag1FagWVYTVJUhU9bTEhaTFJSeklTelBRc0xMgURTUUtLe1NLVktKc0dHa0NDe0JCcitK
+V0NCZS9HWUFBaTU/aTs7cyVCWzo6ah4+XzMzZjIybhU7YRI8YDAwWikvYwg1ZAQ1ZSkpZCoqWQQ0
+ZgIzZgAzZiMjYiIhWiAgUhsaWhkZURkZShISQxAQVBAQSg8QPQkJSgcHQgEBQgABOwAAMwEAKQAA
+GwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAQUAP8ALAAAAACAAXwA
+AAj/AAUJHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuX
+MGPKnEmzps2bOHPq3Mmzp0ghQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWKsqFAKgq9evYMOK
+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
+ec533vOfB33oRT960pfe9GALCAA7
+
+------=_NextPart_000_0000_01CAC2B3.CF426550
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.google.com/logos/Logo_25blk.gif
+
+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
+9tlop6322hwFBAA7
+
+------=_NextPart_000_0000_01CAC2B3.CF426550
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://archive.ics.uci.edu/ml/assets/rexa.jpg
+
+/9j/4AAQSkZJRgABAQEARwBHAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAqAMEDAREA
+AhEBAxEB/8QAHgAAAgMAAgMBAAAAAAAAAAAAAAkGBwgECgIDBQH/xAA5EAABBAMAAgAEBAIIBQUA
+AAAFAwQGBwECCAAJERITFAoVFiEiIxkkOVh3mLbWFxglJkEzOEJDt//EAB0BAAICAwEBAQAAAAAA
+AAAAAAAFBAYCAwcBCAn/xABDEQACAgEDAwIDBAUHDAMBAAACAwEEBQYREgAHExQhFSIxCCNBURYk
+MkJSFzM1YnF1tDdUVmF0gZGUlrLS1CdTY5P/2gAMAwEAAhEDEQA/AOt5DYZMLFlYCCV/FpBOJvKy
+GgmLw+JiXp6SyMqokqvoNCBRqLh+SfbooLratWiKiuU0VN8a/DTPnGgA2GK1iRmc7AAxJEU/XYRj
+3mf9Udfsddu08bUffyFqvRo1Vy21ctuCvWrqiYiWPc0hWsImYjkRRG8xH49aw/o2PYn/AHEeu/8A
+L9Zf+3vJfwzI/wCYXP8Alnf+HVT/AJSu3f8Ap3pH/qDGf+z0f0bHsT/uI9d/5frL/wBveHwzI/5h
+c/5Z3/h0fyldu/8ATvSP/UGM/wDZ6P6Nj2J/3Eeu/wDL9Zf+3vD4Zkf8wuf8s7/w6P5Su3f+nekf
++oMZ/wCz1T1v8vdLc+MQhS+ufbmpUbJnzkXHCFp1zKYMzPkmTb714PDuJCNYJEHjVn/W3Ddtsoqk
+3/m7640/fzS6rZrwM2K7kQc7DLVGuCmI3mI5RG87e+0fh04w+qdNahY5WB1Bhs0ysAssrxeRqXjr
+rMuAMcNdrJWBn8okUREl7fXr9ojmHonqI1II5zlTM6uk9ExTQ5JhMEHtSDwGHIPNx7Ei/wBHT1lq
+m2dPU1GyOdN1N9lE1P4Ma6bbYzr0btsWHVrNeCSWLSXETCybDJVBbzHuyEtkfz4F+XWOf1VpvSq6
+rdSZuhhVXTaqoy8ZgNhiBA3AvgB7ysWLkt9ojmPvvMdSy8OI+xeZwLGVdB8x3NUEVJPkhjOVTGHu
+28Y3JL/HDYc4kQ/ciGYEHecZ1ZsiL1o5e74+Roktt+3mNinaqcfU12og52CWDsJT9eMF7jJbbzx3
+5bRM7bdRsFrfR+p3sq6e1Nh8xaUEtZWp2xmyKo+rIrshbmLHeOZrAxD9+R6y95G6tPR4dHR4dHR4
+dHR4dHU8G1ZZpmCm7QEV5NSlaRl1lhI7BHxos7hYF9rsy02ZmJIg13EjnONyY3XKLp0mpjZ+zxnH
+xcJfNulD4RFmVMitJcIfIF4ZPlAcfJtx5c5gNt9+UwP16VNzuERlUYJ2Xxqc1aXDquIZcQGSsKmG
+lDUUyOHtDilxcgCY2UyfoBbQPzT016nla1dY9yzAdX9TwiR2FNSyblZhG4uP3IEVGrLTCr18t+6b
+ZiOZJ513eEX7hqxbY3Tws402UTxtvr1rFtnirKNzNpLiEfQY+pFM7CMRvEblMbzMRG8zEdKc3ncN
+pvHsyueydTE45JAs7d1vjX5WzMKSuIgmOcyYnglIMaWxTAbCUxzLWp60qLmC9f3FBD9dTRuPYllI
+5JEEEX+RJP635aTSy1cO2y7F/wDbr/bOEHCmin0VMftnTOPMGqahppcBKavbmsv2h5DBjv8A2iUF
+H5xMdY4LUGE1Pjwy2n8lWy2NYxiRt1ZOVeZO3mTMMBZi1XIeYEETG8dVv5r6cdHh0dHh0dHh0dHh
+0dHh0dHh0dHh0dHh0dMc9P8A/akcJf4+Cv8ATMo8Y4j+lcf/ALTH/YfXN+8H+S7XP9wu/wARX67f
+/PAvvS7u5errDvfu6waJ4Yg3Yc8oLn6sB61VREzd0xESRcePgEWkkghahtvExTtsrHtfyd4+mM1M
+NC4MA/HrAyZPNyrxkH5C2x+QbXoLumiuqPAE2Dj2hYES+fAS3j2nyGcEIzEDv18e6hZoTCaH0pj8
+FoWjnNc3dIUM/qDJsHJ3EYWi6oJsv2a1e34pstg4s/fCqrSWSnvBi3pV1kTsz8Sh0lyv0nYvP7jh
+KOxJarD24Ui2tu1TKkpkojGPrhZgMXisY2j6ACXBstzgEi0eydquzdY+d3u4RdIJQ7mprVWyyvOP
+gJUXGfM2eZj+6ccB48WDsQzEl7T7++8RcNF/Zs03qrTWP1BGu7FqMojzLLE4pEVazd+DqjItW/UE
++q7klyzCqYkO3Ad4nrfpuxexPZPw9XfSvMlqWr64+m56HkT+maQlsuq+TQboYPGmO5r7scxlkOVk
+bIfKx6bp7FJk1FR9+MEppH5HGjEReDDGzAmXcnRXZrNdjLRwUpQRpILIjG/7wEUCcfMBxAlEbEQ8
+J65+jHaP7b64yGm9TYvGdxdMY99cM1m6lTJVr2n22D9Pwaypc9OZVWSEWqcueLWz6evaRcB1fpB/
+t6sS6bW9RnqfnPRZqQSC8idpXyPtAlKxzETJP1bGVpvFiI82NGDxTFkRDZC6hnCCDBvjTdhn58bq
+fOrvXswx7cPhzskZPlr4bLIGD5jDBmCgYgeUbbTtG3t13zs/jsNiu7fdWjp5KK+EVi8AzGLrMJyP
+S2Qp2lsU0mNkwd5pdBeQonn8vy7RFi/hNv8A3Sdcf4AwL/8ARH3jjR/9H5rb6+qxG3/8cz0n+1r/
+AEFon+9s3/g8d1v65p70VzT6We28+1S1Y3dpq+ZHY1fcvtQpEVZThZpOweNasFkZvEwTSObZESgQ
+WsAYSfOlv02JB6JpGtzGowE2gZBlutpBFXLvF+Wt8IBi/vI3gkWAMnAAqZ4YU64LBAYlUqUMtMd+
+qVpvHYDUffXSrO1eLsYXG4BVO/qL1AtocTp2Hrypqo3HFaAbFaxUxR1hCJOy1kmqEyyya7qD9PnF
+lGchUB0T7CQvX9yWB1ALCyWL1nydBbAlTKpIcdFMZAwKS7WswpMy5dM48XDEZKTLkmzfUgRUjsUi
+Zt0JdEHOZYXF0V1Av+vsWbQQxhUlPainuISQT6VZ7imTECM+ZNZDJSrxAU9XXN96dbZ/VWoMP2/f
+pHDYrTLnVDu6puY+q/N2q7nIL03xRylANh1Z0VEpCIFILbdtqOytQxGwPTHxpRXspqfmu8r9t2O8
+xdb1aXlPKM10SAB5Ji0d3CIplU9qSQ6DbosVGaxMQUjJFGMi3UqIFQEMO6CSTl04exV4OsGatYa1
+YMWnV8+KMeMw6SJyyU7j7HarkqWLBcgm2uP2xaS67GlTvXrLNdsbWr8Dp/FWc1pfLKqayqn6liRx
+sAD/AIri6yncoRYDyJt83unHQp9tYsQEMVWfQ3pNgfCHHl3Wh2ndBNLo0/beKs4hr+nHYAgztp03
+ersgJKUAjiOzr7OwtFkTsiRRJiV6mjI5PdZ6bkxltHl41zDRRoVQc0Zzl69FetWWW9aQ8sIiTMuJ
+wkuUWGP2/VxZWSQ+UmjLTT3e7I651lj6OkMKuNIY/CFlta5LMA8LGNjx+exFZ1efGJ4+B9JXEltj
+K2isM2VSrxaHXrv07+qXnCV8y8UdgXZ0OU7y6pj4pYMeqlXZCv4LKJG7chA7ZuKxHioNCMKy1kTj
+QR9LsSEjINgz0wT0iw5xp9k0ZhcIN1eFi1bPImqWxZCPupkBaf7JBKkw0EtNaWbtgIjk3kQSVKDv
+N3bz2N1Dr7TOE0/X0Fpy2Sm08kHkv2KyvCbJa71C7J2gr2a7bXoyrISToTXGySj5IZ9oPK1f8T9x
+3NzLVxeWHoPW7Wt8iS84fDSMneryqs4nLS6pF2HFBB2+v5wafYZJthjbVux+3bbfW3S2XUqlxQIu
+3q6+Xjr22JXyncuAiBRyLaORfN7ztG/5dfQ3bHU+Q1nobBalyq6qr+TG8T10VsVVH02St1F+JbWv
+YP3SA5cmnufIt432jUtBxqQL+mPsaVNrKmIsCLsZ2i6rZiyhO0PPONH9P/M/Lvn8TezbVwp9y3+K
+YiWCmuuRzXOiGMbvNXT9qy/RKqcuZKzyIj6fZfiGZyqA5xPj8vLfZnuyR5xHy8Nxnlmo7tUPtHaK
+pFh8e603BrIcuxmS+IIH0WoShaVrvrxvAeBDu2g5kw1m57wuQ1tIPWj6x6YmdBxS6riulCVX4EBs
+YNX653XTEhk5tQUhgytIIrBfqx0NoVKto8xRJOWjNUg40UXeOMaKaosWYPCV8iOPN1onvIwrpI9v
+2DMeRMBUBEs47AJSI7jMbTy6oFPvP3p1FhtR5XAYHTs0NMNc/LZVVOC9LUUs2TXGpeyc+qcCVHcc
+aVsbCfaAH6ne/AvM9Vcf9q9r1VHZNNzkij1TQaTxF4WaBlkhtNSnRtIHrYi/QboKO5+FlyKA5FRB
+s1EmQjNs+dNNHn1Ek8sOqvRLUdYGvltXxyxkCO3oZrRZrMX+E21sN8FE/d/Iooj5uq13W1hndf6G
+7X5u5Sxtandy2Vq2koZZiXajqNKiUwsjOAxNjH8HREkdmvYe9MMkOBHhGLc+c7XzF789hPV949K2
+Py3B5EhXNP8A6rfssXvPBobcUO+jJSDFNTRtq1mUjdRyJxwLsKRV/r5EiWYj2n01lSalE6bM1k33
+LCLFiU0Y5R6tyAmEIZan2mbB8CjgJCtYKJhFMEMD1C5q3WGm8lpntJoPTejsNrS3SnL6lmmo/wBG
+cZZtC+0cUFMLaQnH11W71yxFg9zSiug3HJDSnYHFPODDlODdycXyqdPKcOSJnE5jBbKc6kJFGSL8
+k8ApOW7/AGSTetnwmSM/ySRA3y5dDOr8cZDGFWG26SkbK42tXrVMjRYw6dwoCBb+0sihnD3mBLaT
+S1RAUSQsH2Ihn5bP277kaus62y/bXuHSxytR0azLtLI4gPFUuJSpdk1msSJRrdTeu3StqFEkK217
+FcXRE9KK8R9d96PDo6PDo6PDo6PDo6PDo6PDo6PDo6Y56f8A+1I4S/x8Ff6ZlHjHEf0rj/8AaY/7
+D65v3g/yXa5/uF3+Ir9PU/FZ2PLI5ZnGFORh09ikIFB7Svxr+nV3AXK1sPJmMYoypJyw3Q20kcd2
+dGC7Aoltq+Yk5cQIpLaOXeVcv9WMIWUkjuK4htj5fb77nEc/b94d5mJ+sScz9Z64V9lPG1LOM1pm
+LQBbutdi8CXqRF/HFBTYyasizfevY4pUap+Q101rmOIREam4Vqmrve3zdRvRfdFJzIncnGE8Ugz+
+0QDMcHjvZ0Li41YxiHnMLfb7SAdrI9h2Z8Gb7DxrSaIG2UePDxU2lgEbKoKVnqyLN9DJdRZwlowM
+BeAR34T/ABDy28g/LsyCgZgTIeqrrrK5XsTqTO6c0Nm6asNrOjF5eLebHWNG3LRin1iNuXp2en8v
+w9xc2FTlJ2EMZSqWGoZvL2bdJdA+16hLzehJDUOvPfRsHrCk+eV0lxClRQ9OwhkFl0GkIJDCCX65
+nAhd+GszOEMJq/XQizD/ALbBB0dUD8pZs5au/iSfT2VrRW948IwwQJZD/Gcbw32iPoP7Ix13rBds
+tNaf7T5/BA+vl51Dpy7lM3qEZhsZe5OObep3q7y5T6Gi2Fuxnv7cStM/WXuLp3n4sYYOEURxg1Fs
+mo9srfdsklEGiOiCW5AzCXZgs920TxrrlySKvnhB6r8PncPHS7hTOyiu22XmroiEUdo2/WXT7fmS
+ymZ/3zMzP+vrh/2TmMbntZE0yYUYLErgjmSmFpuQlQbz+6tQAsI+ggIjHtEdJ99Ave/MXAF6dBzr
+qGbFYRHLCqaJxOKOxUNlk0UfmxMwdmH7ZZpERBh2x0RYKpK6uXaCTZXbbKWiv1dfkzE07laOPp5N
+NthLO0/HmmBUxm4oVkhbMyETA8Zsq2gtuXKdv2Z6639oHt/qnuBi9MVdLUVXnYy/k7FwW3alLxqs
+16S0lE23JFnIksiYCSkdo3jaY6tD18+zfkR9x71Z64PYzIzbbmuckZib5+m4eISOaFYShMpQUPqR
+9iJjQ0uTCPYZLVBlpV8+WYaj2RR0eDEVNW6A4e4hY+5TfpleCzDGJdVQhNWyCzeQCKokNpDlsVB4
+yCvoDajBrwQrVsS/uB2z1hW1/p7uX22rJfmg8Q6koOvIoLuNrJBBWDbZamHKytGTx18QPygSE2lj
+LHG0NuU/7beF7/5Np7mjo/uDq7im0uXmravwt58sGbLryPX3C4ONRhcalqjaOxGXbaNJnFBIg2/g
+1hxAUeh0o3dZBPcNd3X3Ticzj8jWqstXbmItoVA2E02NFLW8QFpK4C4GKYS/KnnwejyEr6cpOhZL
+tFrzS2p8znNN6G0prrD6lad74VqhGMyFrAPuOZcZTn1F6mQtoveyt62hbsVb1cFk77zjC8IY6M9Y
+Vn+xaO2h0T2V1PdfGHMsRiZanQfRiV13hPrmuj7ncnJVnW78Q7WidcNzQqPnjIp6JiTOXFBgMW2C
+6AMGVMrKdvGjmLWSuPfYRT9PGHS4HPcRLSBE5pmMxxTcFrq6mGvd7EtLitEqO+v0z3Po9tywWndH
+aXwurdU2Loalt6ePCYShicRMymshaktCH5B1NzK8WksuMqV5tbu9WxJjc3Y/tg4U9qHOsx16ASdc
+p9Yc+WtIp1xFMm8SmNmB5BGE3LMxG4xYbyHizOBP6x1BCgdkDXWGwoRI2camUackGQ5+I89vZOpk
+atS/MRUzlCwTlVyFrqz0reD11jeECEi0YACIuMrspJoSKH8OlWkO0+u+2OoIqYQh1VonU+GTjtYp
+9XTxlipZaltS1cpIuOURlT87rFBipJjqNixRfAWYXY60VNPaZ6XOrbE5L9hfSRPomtOyOY9Yc22p
+mugb4qPMlgx9U+3+/e7CHsPlkFi0kKnZCKIs5tDpK6CvXQwuOevtmQRNoWT08WSrZkStJtFApJMi
+WyIYDEyy1tHFo1V2Gj5EGUtGAKEmwRVFUp9rO9um8JqrtrhEaeyWkNQTafObuWEqLh41RsiPKFyl
+dvrqVUsQ6jZrpcMkl60ky2S4+xOjfVX1r7X7kvaxJlacj5hmVYxhm6kzYRK47sWt+IiInEmTuDD4
+q2xPMQReJB98qLS8SKdLSPUoom2/K9gqqqdbMG/J5d1yXzWca2VCjy8ifJgFotk7zCZWEmjycS4z
+8wiXGOuiYXT3ebSnaLTmC01Tw9bV1LKWJbVc2g8U4O0d63IXWZE/h/xEbrljMUmsEUeOOXP1G2ao
+J1XzdD/Wt2Ry21lxNvYNmW7KjVRx1SOyF22JwdSRV6pG1ycnyz2FjHm4SMu9nCBd2g+1WQ1w5T1W
+cp421zfrlpmpjSMvWqug9oeMuPD4kizMwzaFz90JFtE77xx+s9M8lobVt7vRonW5UUFhsXp6nUzN
+yLlQGLyY43Lqtgql5PO1fqrq4E0gS+JzIzwCZiyu2e3ubLo6V9fNkV3NiReIUA2hSdpkHkSkQZwD
+3DTyHHSOGA4mxbvT30RgggtpkQk6wtulqgl8yqyWuzG5lqLdSUsithzUSzkxkqZBREPsn7LmOc/K
+wZ9o399vz6RduO2usdO9v+6WBy2ORXyuqByEYVC8jTsLs+fD26avLYS0lVd7DQCfOQbRPOfkiZ60
+9H/ZTx0w786mvl1ZBvSr7Q5lgNaws3rX8wUfEZgB+H5mPcgtBmS4xuh/8CT9qixX/wDqW280oydN
+dvUriYXDI1K6qc+Jm7GLpkooKNt1x5Pbke0fj9Oqje7PdwH9t+3mnV4irOW0/q/M5bK1/i2PgEUb
+jgKuwLEuhLyMYndSjJgfvRHWOOK+u+Un/IFmcG9kGJNCIFJpU+mEHs6IjXJrYM9IkRZ76T5IW0KP
+h5YBJxKZoS8cBiYUowfvg5TVt9NHdfTRuY9+GVickR1irnBJesZOP2vJEzxg9jWw2rKCHg1BxEEJ
+xPV97i6D13W7i43ul28rUsrkE0VUMnhrrwry4U120plfnYhbq1ugwUuBdhNqs9AWFQcFPHx606w5
+Si/GcO4G43kMusuJIzVKdWFa8zEqAdij1sZdybZoKZu2Ih0+IFjyrJV0s2DMQwcIIbjmqxF26XXR
+wy2QqNp0cXRkzq05hkuZGxMMfNIQO+0/zj2uYfEIj5AXExBT1t7e6E1vZ7hZbul3BrUcRkbFA8dj
+MHQeNjwLZXRS5vJbbC1Jr1FStQHZdYfZeyw2FCIiSevEHX0J0eHR0eHR0eHR0eHR0eHR0eHR0eHR
+0xz0/wD9qRwl/j4K/wBMyjxjiP6Vx/8AtMf9h9c37wf5Ltc/3C7/ABFfrtQX5AOd/eTcNj8bWpZ+
+lL9S8Bdj2qJYqC2rLY9bXJhKWJpyBlEEnSrXVQvpH2gEE+JoalFIRKoqIk5ES9FyzKStssLr51za
+TmeC1j7rRiY23dTko5eP3+vHiMztuBhykZE/f5W0/kNRdjcPjtZYrFlmdLa+0dimn5iLwYrVi6nJ
+DLchB7ImwdhwKLw+trWnVVtBlSChSntI7P6+rjpCnudePaNv/kbnXg6RC2XOEOF1NOxP/EeXxfRc
+TmzzbBMO5aTiJHWbkqIjoZ85MpyaNn5HIpNu4OTd8iOUZW7cXZTWpIsU6+PKPTBCmD5DGOPlIdtm
+rmCmBAuUEMkZfMfy9a7W6K0hktN5jUWsM5gNW6i11Xaeo7jMtSb8NqWdmfC1H5gKlaQQqdZcAp9L
+Zr1kVoFNBZMbeQ5+5Ru7bm/3sdpV9MOGZnTI/wDWXStIziIrR9ld1rV8yQRqGWx0MdVZSN28dyNu
+xJQ1puIXktkjEIlFzLJF0CXJP2/p6r/TZ68s6BpiTtV2BxhzV+yTES+b3LaQjbk2OAlG47zyReoN
+WYSNSditF5Cnrmlmmei03m6NyLB4TFZAynL1LDkQdcQGuRruFDRrY1pW7SjIXipa5PeL0qd7E9ZX
+rL6akIpIA+uK6+hJU0AI7aqYAR3681GRIEstpjXVy8DRUeGGkHmMfB6+bOXWP/W8WZ20V3F4q0Y8
+Je+wfD23AdmQAztvG4hAxM/jMTPXRuxumkaP7m9ytM12k8MPhdPVTeXtL7HCm226I3niLbTHMAN5
+4AQh+HSHOQbeverDM7Tofn2q+gip8UBVkgmy+WwnUG0ZGhnhNNgTBiywgupDdCDsys0LEGuiCZrZ
+AS2dbqbjmmuqKmyyEsitWVZmYGThlOLfAYmdpiJieG8ztM/j7fl13bWuN05fRjz1HqXIaaSl1gar
+6Wq26VG01oLJiXNCxXG6SwTBqWUkSIlpjEQw+mMc5dBexfrltPnfOHBnrwtJOsNwKE3TG8O8sgnQ
+l7KsGv00LbtJaSj65oyd3jppEaHCaECTlywUbaNvrqIpqMq7MpaUx1fH41q1n4i40KnKWQuWysFS
+UNacLjnxWBTx65zqTBdt9INxydSa97h4w8sD2UZPWuq7C2pqnWCw9jagPXXrpK3W8j7BLVENguW0
+Ttmtf2hdFtV9WrrlD16NnW5V6BTbreuim01ljo1zlkRBt09g/wAXJke81y0fC2/1XzVzj6K6Gin8
+PkEMs9kAS62LOGxuuRxqChkfjIbftRH48d9vx6tEdr9OTzn9LNf/AHSxa3/5FzH3STjkDm/rP3am
+D8wMPiBD7jMx1xlfadfyCLlwvy5660G7J5qNeuV/XfSyLdkT31zvoMeLqCdUWhPfTXO2g5xum921
+xnOqGcY8y+KWPr6XGbTPGJ+Go2kv4Yn6SX48frt77bdex2s08RCA6q7gkZr8wBHcPNSZp328wDFj
+kSd/byjEr3/e68lvaZ0A33WSccs+u1sq2+OXKTn120w3Ua4112322cprCNN2+uumm++2y2NNddNN
+985xrptnBOTsxvvVxkbfXfGo9tvrv+XQPa3Tx8ZDVXcE4PbhIdw80cHvO0cJGxMHvMxEcd/eY/Pq
+yNO7ey96hI31ji319a1EJnoisSE0V9e9DItW83PRUhOBIj8sWaaHFWz2Jin5vQ6gMUj2jVvnVUqm
+vuklvuO3fXXVaOjjgQ9z66mFjERydWWpzw4/tD41vSckQwMwweMzO+yqNEaJnNDp2Nba+LMljiyo
+0h7gZ8pmgFyMeTfNDJr84uFCPT+X1PPf7njEz1XCHtK6BdNnz1py167HbEXoiqUfNPXfSzpiKScq
+fRbKlHqAlRsNScrfyW6r5VDRdb+Ultvv/D5p+J2ZiZipjZiPrMYxMxH9s/SN/wAN/r01Ltbp5ZrW
+zVfcFbHSUJWfcPNAx8hHIxQsrEG4gH5jhYlIj7ltHWpKyvT2R3NR0s6QqzgP16zemIQ5ljSSy0Rw
+7yxq6ZrQQQzkE0+0iT4mzmZtOLgn7UwYVBR8lo2Hb7uPjvqit8kvzZP0c34x+NKrANbLRx9UtlIZ
+4nNlcF5YWpnsxkhxH6zO209VTIYXtridQ1tK5LX3cOnnrfovT02601Z4zLJSQ0FleECoKbcMZBC2
+2QIz2Hbco6y4j7SOhXCrRBvyr68l3BBhgsPbI+umm1XJATsnstgswbJhtl3orKKaiv5k2TVZfST3
+U+v8mm2cRPidneY9Jjd4jlMfDE7wP15T/V29+X7O3vvt1ap7X6cESMtW6/EAb4GHPcXMQC378fAw
+/U8Qfy2HwlMM5TEcd5jqc1V3/wBc3dPoRWFV8eeu+XziyT6MWgwdt6/qCHISKQOWjp8gLaHDLYcA
+ScKs2Ttzr92Ubp/Rbqb/AD/DXzci5estWhFLGsa3n4x+G145+NRuPjJTAzxUBHMb78Y/s6XZnQmj
+dP469lcxrPuDTo4xQvvNnX2oGnXUbl1xMq6GNsTEvatfyqL5i99oiZiCOvaZf7L4Zecu+udrps6I
+Mkl1/XrSKbRy7EudmRRuzebDMNHqg93rlu8w0WW+3V+Gqmdc5x8Y45dxgtg18XINCGKL4amIYsoi
+YMd4jcdpj3/DfaffpnHavAERAOqe4ZGvhLAHuDmyYryDyX5Qh8kryD7h5IHlH7O/VR3H7DLOuyuZ
+PV8lpbh6HhZGmPwSkNR8gVJV9iC0w5gecT3ATqNs9Dke2XcDUWhNRjvps/DuCApfOWj9fXbBuQa5
+ZqJFAYOI3lFJSmxsUFHFgfNHvH4fWN46b4bt5jMJka2UrZrW1x1aWeOvltXZfJ45stSxMxYo2mSi
+xECyTXDI+RwraPzLHqD21w91pRNaV7btu0bLINBLUfiBcIeE3UdcyAiTkIYlI44OJQQUaITuNPpH
+HwxY2CaSWNiVyY4a9XQTzlDfTzC1RuUiSNquxRv5wsJ2I+agFjVGC5IlOWohYamwDBAoIhiOpmG1
+7o/UN/JYzDZ6petYlRvvcBsKqrQp4VW2FX3pVRtV1WWLrsdVsOULWAPL5hmct/avM6Kq4Yv8pN1M
+ouFcMXf0m62F8NcouFfo/TbrYdZw0ykttoph3nDXOv184T8i/WN4iZj294jePf2j3j85+n5/h1bO
+a94HyL5FG4j5A5EPHnyGOW5Dw+flG8cPn34+/Xt0HE1HCbNIUWVerIKu0GSYogo9XaIYUyu8QaaN
+suVmiGEVsrukkt26OEVfqqa/T3+U2n8p9h5T7T7D/FP5D/W+n+vrGXIgZOXogIOFycuVAQwtuK5O
+S4wwpmIEJnnMzG0e8dTquqgtS3dzmlX17K51iMw+S2AfWj4tRwzFwiG4aZlsncP1soMNhccw/Zfm
++6DlZZn90j86P8X7blVrD4MlJMxWKzYURsIA2wqospKdo4laelG++0MYMFtG8wuyedw2GmsOVydO
+gdy4nHVVvb9669YU59eqKgg2ixya72L5gImKjmC64NgVpYFVTGYV/YkQNxWY1/KF4TNQrxvo8/Tk
+vbfDK0bfFBKpEJuWxjbGU2rMm6y41z8zbK2v7+aiEgIgIZgha1BRt9HJmRarf6Sa5iYIRmfz+m09
+bqGVxuVqU7+OvVrdTIU15Ck1bOM2KLYiQtgpnB8ImJieZqGB3+bjPUT1HE91N0dBJbdZJlkkqjqK
+IbLJDNc/LsTVSw2yokM12/h2Iqa6stc/tlfGfPNp9/afb3n2+kT9Jn8on8Jn2n8OpcuTEQUvRAkz
+wiUuXEG7/wCkJ5bE7/8AId2f1euH551t6PDo61jwhe8R5f7M5s6Jnw+QloVTlmspnJhsTaMX8lei
+24cyP3QCMiZIOPcvsrEUdtUnhVgjlPVTOXGu2NddpdB4VrtWyyCkEN8hQO3KY4lHy7zEb7zH1mP7
+eqlrzA3NUaN1Jp3Hsrqu5jGnTrMtmYVgYTVHycaluYIbBPuCmTvt8s9PQnPcv4fSfX5KuniXOHsU
+B3jLp+VtB/PoPYJGClx03MON3T03HFIr0wLxHFsqqb/RTD/aJIJbZQT0wh/L8fHd08ywdqa+SF7G
+eaWA4lzDPb3DhZjh9PoO0fX29564VR0J9oGhgKumF6k7ePwdSgnGBQvUAvJZSRECtFiLWmm+oDYY
+5Q3lzneS3mZmWlwf8T769YNGRsYTg3dEqSGJYQSNTiOVpJpM5T1xrrp+ZHXdy6vCSuuuuPi6e7LO
+1ds7KOF1lNtt8tV6ox6xgeF49v3mQoi/3l5t5/39cuvfZg7g3rLLU39DVZbPKU0bGTrVhn8fGgMP
+wXH9UNgj6CMR7dLx6g9nPo/7PkbWS9M1V7M7VWFuVnUeBlbEUFQyKqr6ZSWUi8HjnRYeJBHCqWfo
+rkGYfQm6Sxqm6er6aa4wutZPB3T52lZNu2/EZbxWG/8ACsbEBE/hvx5bb+/v10PTHbDvdoyuVfTO
+V7aYqGBwsOVjvLctRExMRau2NOutPiJjcQNsrCd+ADynfAXs77z4h6H5R4+5Q4kra9a4gfLkxm5Z
+mPuZuHWzrH5WJI66NB55tYc7NF32DhV45W/Nt2+iDPfVNFxvhNNDVdlL9GxUpVKK3rXUM5iHbT8p
+BMfteRhFPKd55f8AHq/dsNA6307qvV2q9bZPB5K9qenRUbMOT4+/qMD52JPH0UqDwLAYlfKSOJkh
+3mS6X7xv2paHEMxm03qsBCZAUnkTZQ4u3nLQ67YthrE2ieSXH6ADoFfR7s7Q1SU2cOHCH2+dsaoa
+qfBTyHj8i7Gm1iRWUtCFl5IKY2guUbcSH33/AD36uXcPtzhe5WPxuNzdrJVEYu+zIILGsrLYbmVy
+rELZtVrQSvxlMxAiBcv3pj261T62PZVGeCRFzJHqdUtgtaty812G3SXRjaocACqGRz4hNFhix7fd
++AsrIycffVHLwyG68Xl4hm+fvGrLK315VHKhVrjXNPOCyR22tGB86UsxtigU0myQmi6sn+VbImAN
+cEkzGDnqv9yu2NvXlnDuq5mMUGJ09qDFRHKzBWrOTLENphbBIEu1iDPF+HL1G/z1d0ypTGCPBksd
+97/OkOjPPMNhFP3/ABuOUqQCD8szQCjbAXaD4lHbNAsrXjCpuRskxd2WT+umrq3CoDSJkSzhaXv0
+J4/KO4+7HMx1BV5VP1dqlV681/EkFRCBChNARplDVmlVgIEnislEuSLiTT3NnMLfYLU9x+pLdvM6
+es2syx1sWhYzlLztuZKjkmY2+KqrBfjMWVQlYgLUX0wA1BbRSoGqnnCfxAPO0dBkGIDkWefYaX/K
+rLcVpLDcNsGBWsBl91x+2V51ZxqXkyBplfsZ0GPEYjJkw01VDlm0WatJc3jQ4gydeRqJHjqfqZjN
+d/MkwcNWO12zaC9XaciY5HZ8S0iDZzwnyOJZRAeO+zzqOzYMnatxxE3T1THBlEpu0shj7FTT8YSM
+VVr1Vghmm3yMeev56sFVZZ/UZtHBzT92+8yLFYYRB0ZHelncrPtOaIpYM26EkdUHDF01dS85u8/Y
+8CtJ5ER6uXTS44nazCFmdh4/dPcQLWZOPt2yOMFIzM7xbSKuLzSq3inZFdmVTOTrUKhVrCLEiJDy
+ulCHsLht5RaU+xQHTjE9hbnlczN3NOVwgNVuw6dO1sqsdN5TP/Bjx13ERdYMj8Edj3lW5MFg8kmG
+7fnTbrj8QHWYaQv3EbBdnTCITu8TlkWZEbWlFGvxLOn5DTdyQpPlquh4Nm1asqhhdgz+GSuMsjey
+jlwPib77t2i4WasHMk9QrmuVUpyFwGfHie28VUmvPLUgRUgoUIxC8e8PJA7yRDvsRbgtapH2e8sY
+Ayw/RePuUcTicfi24etnB4ZLGZ3DXn6ktNsTLDy+UxePu1LTFxxF10IABATZ0heiezrj55oi7+eo
+K1griE36MwNmbuQRnJQ8PwqB2jL9WPvcPWzbH3QXbZBugbYmGop5/wBWFoNCOyi26KrkbFSrYqLh
+crsjxZJjMnG4cJkJ3j6j/FBbT8w7F79dy1R270/q3VGnNWZM8mGR0u+XY5VW54KrNrfrVDaX4zP7
+uxsRlWbXN6/1dxMTEDF/VN7G5ZQvFEL5jqYCkJnovoG2bHmlgG4xApCzN1Ha8DikKktXRQ0cGmZj
+BiEtYR52Dm5uNaBnBGJlHA1Iov8AV3Q0lIzDayMZXUESqr6oMgtgjtkKz8kjIei8sRLV1m+AV21/
+RuwTxLgMimy3bKtnta5jVGVtGVO5hcNTxtKtavoOll8P6qa2Xs10tTRuzSdYi1jgf5vDYXBSAT8/
+ThpP+IJoaUSvDpnVHTNbBnwYQ6YTquXNNNLzpdwFsWu7BdUZU0zLknzd9znO0IOtDpmBeaxVBEM7
+YZCw1JH81aLOP0kr+p83hszxYh0M+4Gw+FXH2zx1yS8sOx7fKIRucmricArxHADxtH2d9Q18f4py
+ulrtgDsoOjcjNHgsgNnEWMSGo7NMEB4NS0ZsTdqsBb5Yzn5r8NgGz9OUe+PnKIMqAkUJrGeTBw5Q
+rCbTnnsC6jkfoXmo7G+mbPt2Rq1oiajo42W6HWhkkGwTMpC5HVq8iKjBpl+mqm7HtdPxyskKCYU1
+wgjHNbISIjj2Kx2Uquq42C2OD8l9YvNpSo0VlQsyLfbVU7BakyH6SIvZGljv1zP1qOcsi+znNU17
+WNwlWgeZJD2114CbNBuRXXIWZRGQZYMl8JCWrm7x9olUdWcf1NzRWtSTqt8wMpWmzgFKdIQZgcWZ
+VbHpLHUztYlw79AyDlFlalR5OwGzSJx8W+cbn0ibuRuXA4kiryeRXeRQSpPhGrwmVlAkNfhRXTiv
+SZEwUVNw5eIgWERC5hcNgjnp/b7tdl9I6vzmpMllaGR+JLyQjYpzeTdvllMgrIT8YruCUNjHyJJq
+N9Vad7KIJQqCT0uyw+nTFgUXUNG7V5BI82p12EfDZ0KQd5mMyWDDyzJFKwHO/wAqcgZNslP+3Wuc
+o4iw1NyIYbuECCqqWn4kcLpBCUxNFyXLPbkTSQXMIfv/ADgSXtx+ghuMbwXV4xeiUYzUmodR/Fsp
+aLUSbSXYx5L+H46LTEMIsUv61WH4f1s/f1rpB7YAlDEt439rHHb3puxuyEqt7OgfQHTFWmq7uwzC
+7HqYgFoORkq3DwRpb/JGTrHQ9+vxG4FBsBdTgkH1jkQkk0EBlGipXRDVgGSoKfkGI+LV4yvnc9gW
+UnYp2W2alnakZh8ym+mOtYYUpYVVoqARAZDrkZdo9bfoxhtInlNEXsLo+/Xs4NFnGZRBajprsXGl
+jdWwjkgKn63Fv09JFlTcnUqWH+bx8+rklvv8rOS7HALOgrSAVpKWN5qTKCsydYKsp9O5jN6CP1Rb
+sv10bsWzifgh9W2GZmrhggyaazi0HLqP6kGyK5FNqnVVYbKHMx5DXUxdiKVeVRXVYDVBZySRy94i
+aZekiSn2fucDC559J632d8vWUBlqTF2smn4Mqtk7Ccp6itjqmms5iMnilTyZMUrFzJY0qolJnNDF
+iFghYQq6lUZ/EMVopP300ntPXc6kTla/xoK3Q7qs3drV9Xsy6VZ3XTFYRfTcuAZPoXG4GwY1jPAp
+E+2Yu8DmGyOkpBqk2rqOnUaQCPIix6ia1VbrQ+nNjzqZHI2xUyJhYlWZXupSQ7cIOtuVZizjaPe+
+znlZpBVx+awkVQnDsLCOjKpxNq6rStXBZnLOIFWGryLsmqzlaLlp8gjbZHlqWRAorJ570azdMWq4
+yBdM160Pc82hREuoSqZNTkG5ohJqXDpHuOu2nIoKBIlxthyaSFGb+atDSugYSyfSPUXrIHGob6eI
+6hSJM4xkBU+nTQVUW1orUG0mY0xDGiK1zFN/oWA4H7s8NlgDsRSYsQ7C5eLEE/IaXyDKWpaedp5/
+KVcxe1LlawkQuxuftueSzVUrmMUjr8pc+rUI/TL8olN8e+3nr8xkB3/lzuxJkUtScyJelW5qqU6S
+l42c9Iwu+Gt4TYZlLc5t1BW4SLLQCDP2b15G8N9xe+58aMRctNcq+oqqLNayVe40VWAOaZMR6Wv4
+s1by3raQ8YKMhZXZ9I/yT49uZSbPk4rz+z3qUlDVjUuDiRxKq4Zzw5X42pqdInpj9HhP+YnSbrB/
+EzXELsRJtiapumD6+QM99tXnmM8XuCr7/nB6Z1JddUmVmRKsgr+ZxqZXPdM/qWIFbFCEwU8hkcra
+F2NFIe4zHdyoohrGSjJ5DzrdcUVTiFnBZjbFVoOZbfj6dVjfu1i+1Xr3kFZa5ci7x73SOESDFHEE
+JJEuB9MHdg8qi9i2YXJ6fx9PH5zG5ZKyXk3DRJGN09VyT6+Neqxj7Nm/bw1qzBt8FhU21GF5cQ6t
+11hGyWUGzdDOdc5RQSSznTHw1zlPTXTOdcf+Nf2/bH/jHlc6+oynkRF/EUz/AMZ3+v4/2/j17/Dr
+Ho8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojo8O
+jo8Ojo8Ojo8Ojo8Ojo8Ojo8Ojr//2Q==
+
+------=_NextPart_000_0000_01CAC2B3.CF426550
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://archive.ics.uci.edu/ml/assets/nsfe.gif
+
+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
+yBwfiYoC5tTgvm8IAiAODwQAOw==
+
+------=_NextPart_000_0000_01CAC2B3.CF426550
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://archive.ics.uci.edu/ml/assets/rexaSmall.jpg
+
+/9j/4AAQSkZJRgABAQEARwBHAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAfAIwDAREA
+AhEBAxEB/8QAHQAAAgICAwEAAAAAAAAAAAAABgkABwUIAwQKAv/EAC0QAAICAgIBBAICAgICAwAA
+AAQFAwYCBwEICQAREhQTFQoWIiMXIRgyM0FC/8QAHQEAAQUBAQEBAAAAAAAAAAAABQACAwQHBgEI
+Cf/EADgRAAICAQMDAgUDAwIEBwAAAAIDAQQFBhESABMhBxQVIiMxQQgyURZCYRckJTNSkRhDU3GB
+obH/2gAMAwEAAhEDEQA/AErdM+k22O9F32HRdS2jUtMK1ZrE3b93s+6rmVQaQmo652tQnMCbCMjf
+RjZiGNBpycjhxARgMCCpzY+I/jzkdKk2+xilGoJSqXsJx9tYqgoGZkuJbbSW/wCP536/WfWmtsVo
+Wlj7+Wq5a6GVyQYijVwtMb9515iW2AAa5PRyggUUDwk2EfEYCd+mT67/AI6/dzb689tqPeXQzaip
+UZivas9cdi3V2XLGGcXE+ADA6uayYiiG5Qc8TcCzS4T/AIcsZOY+MMseeSi9OXHRyRYoOGJ2klWJ
+ZET/ABMiuY36zTIfqM0RiWArK4PXeLa0O4peR08ikxgRPGTWFjJLIwgvEkMTG/jffrp7G/jz9zNO
+8Kudv9gfH/qjh7kTik52T2VaUfhzkFjhmZwqysmtV2LDITCTDMnEXmXKHHPHKTjHHn39eN07bRES
++zj0xO/Hu2ZXy2jeduS4ifHT8f8AqI0Xl+78JwGvsp2OMv8Ah2nFXezz34932+SZ2+XEuPLbfjO3
+26V93D6obL6PbeL0pt9xr+w2oai1PY0TfVtkLttOY1i7BGsK+UreHJ0MpmZAoE02XOAHAvMUg0wx
+JMM2OfoVbqNpP9u2Vkzis4lRcw2b+yYLYf8A8+3nrUtHatxmuMOObxCshXqldt4+U5SsFS6uzSMV
+vFqAc8QgDMdvqct4kTEZid2d2T+Pf3PT1KV1W9t9TtkX/jUYm8Quv1U2S+B3i71sYL+fh4jqtirI
+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
+
+------=_NextPart_000_0000_01CAC2B3.CF426550
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://archive.ics.uci.edu/ml/assets/ml.css
+
+TEXTAREA {
+	TEXT-ALIGN: left; WIDTH: 95%; HEIGHT: 49px
+}
+.whitetext {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: =
+10pt
+}
+.whitetext A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: =
+10pt
+}
+.whitetext A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: =
+10pt
+}
+.normal {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+10pt
+}
+.normal A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+10pt
+}
+.normal A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+10pt
+}
+.heading {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+20pt
+}
+.heading A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+20pt
+}
+.heading A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+20pt
+}
+.small-heading {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+12pt
+}
+.small-heading A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+12pt
+}
+.small-heading A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+12pt
+}
+.big {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+14pt
+}
+.big A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+14pt
+}
+.big A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+14pt
+}
+.almostbig {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+12pt
+}
+.almostbig A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+12pt
+}
+.almostbig A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #123654; FONT-SIZE: =
+12pt
+}
+.bigwhite {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: =
+14pt
+}
+.bigwhite A {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: =
+14pt
+}
+.bigwhite A:visited {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: =
+14pt
+}
+
+------=_NextPart_000_0000_01CAC2B3.CF426550--

@@ -1,0 +1,18 @@
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\bin\Debug\factorlib.dll
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\bin\Debug\factorlib.pdb
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\bin\Debug\factorlib.xml
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\obj\Debug\factorlib.Resources.resources
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\obj\Debug\factorlib.vbproj.GenerateResource.Cache
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\obj\Debug\factorlib.dll
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\obj\Debug\factorlib.xml
+Z:\MCA 3sem\vb.net\classes\factorlib\factorlib\obj\Debug\factorlib.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\bin\Debug\factorlib.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\bin\Debug\factorlib.pdb
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\bin\Debug\factorlib.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\obj\Debug\factorlib.Resources.resources
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\obj\Debug\factorlib.vbproj.GenerateResource.Cache
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\obj\Debug\factorlib.dll
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\obj\Debug\factorlib.xml
+C:\Users\Peace\Documents\Visual Studio 2008\Projects\ClassWorksheet\factorlib\factorlib\obj\Debug\factorlib.pdb

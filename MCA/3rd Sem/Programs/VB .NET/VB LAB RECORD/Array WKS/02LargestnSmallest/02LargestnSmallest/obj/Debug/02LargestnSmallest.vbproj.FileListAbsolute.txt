@@ -1,0 +1,9 @@
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\obj\Debug\ResolveAssemblyReference.cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\obj\Debug\_02LargestnSmallest.Resources.resources
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\obj\Debug\02LargestnSmallest.vbproj.GenerateResource.Cache
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\bin\Debug\02LargestnSmallest.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\bin\Debug\02LargestnSmallest.pdb
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\bin\Debug\02LargestnSmallest.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\obj\Debug\02LargestnSmallest.exe
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\obj\Debug\02LargestnSmallest.xml
+Z:\MCA_3rd_Sem\GUI\U1\Array WKS\02LargestnSmallest\02LargestnSmallest\obj\Debug\02LargestnSmallest.pdb

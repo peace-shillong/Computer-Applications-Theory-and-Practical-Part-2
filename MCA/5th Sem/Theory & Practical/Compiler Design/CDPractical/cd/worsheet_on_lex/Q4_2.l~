@@ -1,0 +1,18 @@
+%{
+	#include<stdio.h>
+	FILE *fp;
+%}
+%%
+[0-9]+ {fp = fopen("file2.txt","a");
+	fprintf(fp,"%s\n",yytext);}
+[A-z]+[A-z0-9_]* {fp = fopen("file2.txt","a");
+        	fprintf(fp,"%s\n",yytext);}
+if|while|for|else|do| {fp = fopen("file2.txt","a");
+        		fprintf(fp,"%s\n",yytext);;}
+%%
+void main()
+{
+	printf("\n\tEnter your text:\t");
+	yylex();
+	fclose(fp);
+}

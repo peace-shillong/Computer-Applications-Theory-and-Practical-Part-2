@@ -1,0 +1,1 @@
+revoke select on students from user19,user02;

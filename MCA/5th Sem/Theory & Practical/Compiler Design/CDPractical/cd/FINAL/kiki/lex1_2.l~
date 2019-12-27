@@ -1,0 +1,14 @@
+
+%{
+	#include<stdio.h>
+%}
+
+%%
+[\n] { printf("\n Welcome to programming with Flex \n"); }
+%%
+
+main()
+{
+	printf("\n Press enter \n");
+	yylex();
+}
